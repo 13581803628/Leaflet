@@ -1,6 +1,6 @@
 <img width="600" src="https://rawgit.com/Leaflet/Leaflet/master/src/images/logo.svg" alt="Leaflet" />
 
-Leaflet is the leading open-source JavaScript library for **mobile-friendly interactive maps**.
+Leaflet 是一个引导开源的JavaScript库，致力于移动端友好型交互地图。
 Weighing just about 37 KB of gzipped JS code, it has all the mapping [features][] most developers ever need.
 
 Leaflet is designed with *simplicity*, *performance* and *usability* in mind.
