@@ -25,7 +25,7 @@ body类: plugins-page
 * [叠加层显示](#叠加层显示)
     * [标记和渲染器](#标记和渲染器)
     * [叠加层动画](#叠加层动画)
-    * [聚类/整合](#聚类/整合)
+    * [聚类/整合](#聚类整合)
     * [热力图](#热力图)
     * [数据可视化](#数据可视化)
 * [叠加层交互](#叠加层交互)
@@ -35,15 +35,15 @@ body类: plugins-page
     * [区域/叠加层选择](#区域/叠加层选择)
 * [地图交互](#地图交互)
     * [图层切换控制器](#图层切换控制器)
-    * [交互式平移/缩放](#交互式平移/缩放)
-    * [书签平移/缩放](#书签平移/缩放)
+    * [交互式平移/缩放](#交互式平移缩放)
+    * [书签式平移/缩放](#书签式平移缩放)
     * [全屏](#全屏)
     * [迷你地图和同步地图](#迷你地图和同步地图)
     * [测量](#测量)
     * [鼠标坐标](#鼠标坐标)
     * [事件](#事件)
     * [用户界面](#用户界面)
-    * [打印/导出](#打印/导出)
+    * [打印/导出](#打印导出)
     * [地理定位](#地理定位)
 * [杂项](#杂项)
     * [地理处理](#地理处理)
@@ -69,14 +69,19 @@ body类: plugins-page
 
 ### 基础图层提供者
 
-Ready-to-go basemaps, with little or no configuration at all.
+即将推出的底图，完全没有配置或根本没有配置。
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins">
+    <tr>
+        <th>插件</th>
+        <th>描述</th>
+        <th>维护者</th>
+    </tr>
 	<tr>
 		<td>
 			<a href="https://github.com/leaflet-extras/leaflet-providers">leaflet-providers</a>
 		</td><td>
-			Contains configurations for various free tile providers &mdash; OSM, OpenCycleMap, Stamen, Esri, etc.
+			包含各种免费瓦片地图供应商的配置 &mdash; OSM、OpenCycleMap、Stamen、Esri等等。
 		</td><td>
 			<a href="https://github.com/leaflet-extras">leaflet-extras members</a>
 		</td>
@@ -85,7 +90,7 @@ Ready-to-go basemaps, with little or no configuration at all.
 		<td>
 			<a href="https://github.com/tontita/Leaflet.KoreanTmsProviders">Leaflet.KoreanTmsProviders</a>
 		</td><td>
-			Contains configurations for various (South) Korean tile providers — Daum, Naver, VWorld, etc.
+			包含各种韩国瓦片地图供应商的配置 — Daum、Naver、VWorld等等。
 		</td><td>
 			<a href="https://github.com/tontita/">Seong Choi</a>
 		</td>
@@ -94,16 +99,16 @@ Ready-to-go basemaps, with little or no configuration at all.
 		<td>
 			<a href="https://github.com/htoooth/Leaflet.ChineseTmsProviders">Leaflet.ChineseTmsProviders</a>
 		</td><td>
-			Contains configurations for various Chinese tile providers — TianDiTu, MapABC, GaoDe, etc.
+			包含各种中国免费瓦片地图供应商配置 — 天地图、MapABC、高德等等。
 		</td><td>
-			<a href="https://github.com/htoooth/">Tao Huang</a>
+			<a href="https://github.com/htoooth/">黄涛</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
 			<a href="http://esri.github.io/esri-leaflet">Esri Leaflet</a>
 		</td><td>
-			A set of tools for using ArcGIS services with Leaflet. Support for map services, feature layers, ArcGIS Online tiles and more.
+			一套用于Leaflet的使用的ArcGIS服务的工具。 支持地图服务，专题图层，ArcGIS在线瓦片等。
 		</td><td>
 			<a href="https://github.com/patrickarlt/">Patrick Arlt</a>
 		</td>
@@ -112,7 +117,7 @@ Ready-to-go basemaps, with little or no configuration at all.
 		<td>
 			<a href="https://github.com/aparshin/leaflet-GIBS">Leaflet.GIBS</a>
 		</td><td>
-			 <a href="https://earthdata.nasa.gov/gibs">NASA EOSDIS GIBS</a> imagery integration. The plugin provides <a href="https://wiki.earthdata.nasa.gov/display/GIBS/GIBS+Available+Imagery+Products">96 daily updated layers</a> with satellite imagery and science parameters. <a href="http://aparshin.github.io/leaflet-GIBS/examples/">Demo</a>.
+			 <a href="https://earthdata.nasa.gov/gibs">美国宇航局地球观测卫星资料和情报系统全球影像浏览服务</a> （NASA EOSDIS GIBS，National Aeronautics and Space Administration，Earth Observing System Data and Information System，Global Imagery Browse Services）影像集成。该插件提供<a href="https://wiki.earthdata.nasa.gov/display/GIBS/GIBS+Available+Imagery+Products">96个每天更新的图层</a>，这些图层带有卫星图像和科学参数。 <a href="http://aparshin.github.io/leaflet-GIBS/examples/">案例演示</a>.
 		</td><td>
 			<a href="https://github.com/aparshin">Alexander Parshin</a>
 		</td>
@@ -121,7 +126,7 @@ Ready-to-go basemaps, with little or no configuration at all.
 		<td>
 			<a href="https://github.com/knreise/L.TileLayer.Kartverket">L.TileLayer.Kartverket</a>
 		</td><td>
-			Provides easy setup of the tile layers from <a href="http://kartverket.no/Kart/Gratis-kartdata/Cache-tjenester/">Kartverket</a> (The Norwegian Mapping Authority)
+		提供通过<a href="http://kartverket.no/Kart/Gratis-kartdata/Cache-tjenester/">Kartverket</a>（挪威测绘局）简单设置瓦片图层的方法。
 		</td><td>
 			<a href="https://github.com/knreise">Kultur og naturreise</a> / <a href="https://github.com/atlefren">Atle Frenvik Sveen</a>
 		</td>
@@ -130,7 +135,7 @@ Ready-to-go basemaps, with little or no configuration at all.
 		<td>
 			<a href="https://github.com/sigdeletras/Leaflet.Spain.WMS">Leaflet.Spain.WMS</a>
 		</td><td>
-			Provides easy setup for several Web Map Services (WMS) layers for Spain (PNOA, IGN base, Catastro, etc), from Spanish mapping agencies.
+			为西班牙（PNOA，IGN基地，Catastro等）的几个Web地图服务（WMS）图层提供了方便的设置，从西班牙地图代理机构。
 		</td><td>
 			<a href="https://github.com/sigdeletras">Patricio Soriano</a>
 		</td>
@@ -139,7 +144,7 @@ Ready-to-go basemaps, with little or no configuration at all.
 		<td>
 			<a href="https://github.com/GeoSensorWebLab/polarmap.js">PolarMap.js</a>
 		</td><td>
-			JavaScript library for displaying tiles from <a href="http://webmap.arcticconnect.org">ArcticWebMap</a>, a free tile provider with OSM data in multiple Arctic polar projections. Includes lower-level API for deeper integration with other Leaflet plugins.
+			用于显示来自<a href="http://webmap.arcticconnect.org">ArcticWebMap</a>（一个免费的瓦片地图供应商，拥有多个北极极地投影的OSM数据。）的瓦片的JavaScript库。包括较低级别的API，以便与其他Leaflet插件进行更深入的集成。
 		</td><td>
 			<a href="https://github.com/geosensorweblab">GeoSensorWeb Lab</a>
 		</td>
@@ -148,7 +153,7 @@ Ready-to-go basemaps, with little or no configuration at all.
 		<td>
 			<a href="https://github.com/gmaclennan/leaflet-bing-layer">Bing Maps Layer</a>
 		</td><td>
-			Add <a href="https://msdn.microsoft.com/en-us/library/ff701721.aspx">Bing Maps tiles</a> to your Leaflet Map. Requires Leaflet v1.0.0.beta.2 or later.
+			添加 <a href="https://msdn.microsoft.com/en-us/library/ff701721.aspx">Bing 地图瓦片</a> 到你的Leaflet地图中。需要Leaflet v1.0.0.beta.2 版本或者更新的版本。
 		</td><td>
 			<a href="https://github.com/gmaclennan">Gregor MacLennan</a>
 		</td>
@@ -157,7 +162,7 @@ Ready-to-go basemaps, with little or no configuration at all.
 		<td>
 			<a href="https://gitlab.com/IvanSanchez/Leaflet.TileLayer.HERE">L.TileLayer.HERE</a>
 		</td><td>
-			Displays map tiles from HERE maps (<a href="https://ivansanchez.gitlab.io/Leaflet.TileLayer.HERE/demo.html">demo</a>).
+			显示来自HERE地图的瓦片地图 (<a href="https://ivansanchez.gitlab.io/Leaflet.TileLayer.HERE/demo.html">在线演示</a>).
 		</td><td>
 			<a href="https://github.com/IvanSanchez">Iván Sánchez</a>
 		</td>
@@ -166,7 +171,7 @@ Ready-to-go basemaps, with little or no configuration at all.
 		<td>
 			<a href="https://gitlab.com/IvanSanchez/Leaflet.GridLayer.GoogleMutant">L.GridLayer.GoogleMutant</a>
 		</td><td>
-			Displays Google maps (with minimal artifacts thanks to a <a href='https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver'>DOM mutation observer</a> technique) (<a href="http://ivansanchez.gitlab.io/Leaflet.GridLayer.GoogleMutant/demo.html">demo</a>).
+			显示谷歌地图（由于<a href='https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver'>DOM mutation observer</a>技术，它具有最小的地物） (<a href="http://ivansanchez.gitlab.io/Leaflet.GridLayer.GoogleMutant/demo.html">在线演示</a>).
 		</td><td>
 			<a href="https://github.com/IvanSanchez">Iván Sánchez</a>
 		</td>
