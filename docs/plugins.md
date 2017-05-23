@@ -289,14 +289,14 @@ body类: plugins-page
 
 ### 非地图基础图层
 
-Sometimes you don't want to load a map, just big custom images. **Really** big ones.
+有时你不想加载地图，只是巨大的自定义图像。真正的大家伙。
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件</th><th>描述</th><th>维护人员</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/turban/Leaflet.Zoomify">TileLayer.Zoomify</a>
 		</td><td>
-			A TileLayer for Zoomify images.
+			用于Zoomify处理图像的TileLayer。
 		</td><td>
 			<a href="https://github.com/turban">Bjørn Sandvik</a>
 		</td>
@@ -305,7 +305,7 @@ Sometimes you don't want to load a map, just big custom images. **Really** big o
 		<td>
 			<a href="https://github.com/alfarisi/leaflet-deepzoom">TileLayer.DeepZoom</a>
 		</td><td>
-			A TileLayer for DeepZoom images.
+			用于DeepZoom处理图像的TileLayer。
 		</td><td>
 			<a href="https://github.com/alfarisi">Al Farisi</a>,
 			<a href="http://indokreatif.net">Indokreatif Teknologi</a>
@@ -315,7 +315,7 @@ Sometimes you don't want to load a map, just big custom images. **Really** big o
 		<td>
 			<a href="https://github.com/namrehs/Leaflet.Gigapan">TileLayer.Gigapan</a>
 		</td><td>
-			A TileLayer for Gigapan images.
+			用于Gigapan处理图像的TileLayer。
 		</td><td>
 			<a href="https://github.com/namrehs">Dan Sherman</a>
 		</td>
@@ -323,7 +323,7 @@ Sometimes you don't want to load a map, just big custom images. **Really** big o
 	<tr>
 		<td>
 			<a href="https://github.com/astromatic/Leaflet.TileLayer.IIP">Leaflet.TileLayer.IIP</a>
-		</td><td>Add support for <a href="http://iipimage.sourceforge.net/">IIPImage</a> layers in Leaflet.
+		</td><td>在Leaflet中添加对<a href="http://iipimage.sourceforge.net/">IIPImage</a> 图层的支持。
 		</td><td>
 			<a href="https://github.com/ebertin">Emmanuel Bertin</a>
 		</td>
@@ -332,7 +332,7 @@ Sometimes you don't want to load a map, just big custom images. **Really** big o
 		<td>
 			<a href="https://github.com/mejackreed/Leaflet-IIIF">Leaflet-IIIF</a>
 		</td><td>
-			A <a href="http://iiif.io/">IIIF</a> (International Image Interoperability Framework) viewer for Leaflet. See the <a href="http://mejackreed.github.io/Leaflet-IIIF/examples/example.html">demo</a>.
+			一个用在Leaflet中的<a href="http://iiif.io/">IIIF</a> (International Image Interoperability Framework，国际影像互操性框架) 查看器。详见<a href="http://mejackreed.github.io/Leaflet-IIIF/examples/example.html">在线案例</a>。
 		</td><td>
 			<a href="https://github.com/mejackreed">Jack Reed</a>
 		</td>
@@ -341,7 +341,7 @@ Sometimes you don't want to load a map, just big custom images. **Really** big o
 		<td>
 			<a href="https://github.com/aparshin/leaflet-fractal">leaflet-fractal</a>
 		</td><td>
-			Renders some fractals (Mandelbrot set, Julia set and some others) using 2D canvas (<a href="http://aparshin.github.io/leaflet-fractal/">demo</a>).
+			使用2D canvas画板渲染一些图像碎片（Mandelbrot集，Julia集和一些其他）(<a href="http://aparshin.github.io/leaflet-fractal/">在线案例</a>)。
 		</td><td>
 			<a href="https://github.com/aparshin">Alexander Parshin</a>
 		</td>
@@ -350,11 +350,10 @@ Sometimes you don't want to load a map, just big custom images. **Really** big o
 	  <td>
 	    <a href="https://github.com/commenthol/leaflet-rastercoords">leaflet-rastercoords</a>
 	  </td><td>
-	    Renders large tiled images generated with
-	    <a href="http://github.com/commenthol/gdal2tiles-leaflet">gdal2tiles-leaflet</a>.
-	    Image raster coordinates can be used to set markers, etc.
-	    (<a href="http://commenthol.github.io/leaflet-rastercoords">demo</a>).
-	  </td><td>
+	   使用<a href="http://github.com/commenthol/gdal2tiles-leaflet">gdal2tiles-leaflet</a>生成渲染大型瓦片图像。
+	    图像光栅坐标可用于设置标记等。
+	    (<a href="http://commenthol.github.io/leaflet-rastercoords">在线案例</a>)。
+	  </td><td>
 	    <a href="https://github.com/commenthol">Commenthol</a>
 	  </td>
 	</tr>
