@@ -1,92 +1,61 @@
 ---
-layout: v2
-title: Plugins
-bodyclass: plugins-page
+布局: v2
+标题: 插件
+body类: plugins-page
 ---
 
-## Leaflet Plugins
+## Leaflet插件
 
-While Leaflet is meant to be as lightweight as possible, and focuses on a core set of features, an easy way to extend its functionality is to use third-party plugins. Thanks to the awesome community behind Leaflet, there are literally hundreds of nice plugins to choose from.
+尽管Leaflet意图尽可能轻量化，并专注于一系列核心功能，但扩展其功能的简单方法是使用第三方插件。由于Leaflet背后有一个很棒的社区，这里有有上百个不错的插件可供选择。
 
 ---
+* [瓦片和影像图层](#瓦片和影像图层)
 
-<div id="toc" class="clearfix">
-	<div class="toc-col">
-		<h4>Tile &amp; image layers</h4>
+    * [基础图层提供者](#基础图层提供者)
+    * [基础图层格式](#基础图层格式)
+    * [非地图基础图层](#非地图基础图层)
+    * [瓦片/影像显示](#瓦片/影像显示)
+    * [瓦片加载](#瓦片加载)
+    * [矢量瓦片](#矢量瓦片)
+* [叠加层数据](#叠加层数据)
+    * [叠加层数据格式](#叠加层数据格式)
+    * [动态及自定义数据加载](#动态及自定义数据加载)
+    * [合成叠加层](#合成叠加层)
+    * [数据提供者](#数据提供者)
+* [叠加层显示](#叠加层显示)
+    * [标记和渲染器](#标记和渲染器)
+    * [叠加层动画](#叠加层动画)
+    * [聚类/整合](#聚类/整合)
+    * [热力图](#热力图)
+    * [数据可视化](#数据可视化)
+* [叠加层交互](#叠加层交互)
+    * [编辑几何](#编辑几何)
+    * [时间和海拔](#时间和海拔)
+    * [搜索和弹出框](#搜索和弹出框)
+    * [区域/叠加层选择](#区域/叠加层选择)
+* [地图交互](#地图交互)
+    * [图层切换控制器](#图层切换控制器)
+    * [交互式平移/缩放](#交互式平移/缩放)
+    * [书签平移/缩放](#书签平移/缩放)
+    * [全屏](#全屏)
+    * [迷你地图和同步地图](#迷你地图和同步地图)
+    * [测量](#测量)
+    * [鼠标坐标](#鼠标坐标)
+    * [事件](#事件)
+    * [用户界面](#用户界面)
+    * [打印/导出](#打印/导出)
+    * [地理定位](#地理定位)
+* [杂项](#杂项)
+    * [地理处理](#地理处理)
+    * [路径选择](#路径选择)
+    * [地理编码](#地理编码)
+    * [插件集合](#插件集合)
+* [集成](#集成)
+    * [框架和构造系统](#框架和构造系统)
+    * [第三方应用](#第三方应用)
+* [开发自己的插件](#开发自己的插件)
 
-		<ul>
-			<li> <a href='#basemap-providers'>Basemap providers</a></li>
-			<li> <a href='#basemap-formats'>Basemap formats</a></li>
-			<li> <a href='#non-map-base-layers'>Non-map base layers</a></li>
-			<li> <a href='#tileimage-display'>Tile/image display</a></li>
-			<li> <a href='#tile-load'>Tile load</a></li>
-			<li> <a href='#vector-tiles'>Vector tiles</a></li>
-		</ul>
-
-		<h4>Overlay data</h4>
-
-		<ul>
-			<li> <a href='#overlay-data-formats'>Overlay data formats</a></li>
-			<li> <a href='#dynamiccustom-data-loading'>Dynamic data loading</a></li>
-			<li> <a href='#synthetic-overlays'>Synthetic overlays</a></li>
-			<li> <a href='#data-providers'>Data providers</a></li>
-		</ul>
-	</div>
-	<div class="toc-col">
-
-		<h4>Overlay Display</h4>
-		<ul>
-			<li><a href="#markers--renderers">Markers &amp; renderers</a></li>
-			<li><a href="#overlay-animations">Overlay animations</a></li>
-			<li><a href="#clusteringdecluttering">Clustering/decluttering</a></li>
-			<li><a href="#heatmaps">Heatmaps</a></li>
-			<li><a href="#dataviz">DataViz</a></li>
-		</ul>
-		<h4>Overlay interaction</h4>
-		<ul>
-			<li><a href="#edit-geometries">Edit geometries</a></li>
-			<li><a href="#time--elevation">Time &amp; elevation</a></li>
-			<li><a href="#search--popups">Search &amp; popups</a></li>
-			<li><a href="#areaoverlay-selection">Area/overlay selection</a></li>
-		</ul>
-	</div>
-	<div class="toc-col">
-		<h4>Map interaction</h4>
-		<ul>
-			<li><a href="#layer-switching-controls">Layer switching controls</a></li>
-			<li><a href="#interactive-panzoom">Interactive pan/zoom</a></li>
-			<li><a href="#bookmarked-panzoom">Bookmarked pan/zoom</a></li>
-			<li><a href="#fullscreen-controls">Fullscreen</a></li>
-			<li><a href="#minimaps--synced-maps">Minimaps &amp; synced maps</a></li>
-			<li><a href="#measurement">Measurement</a></li>
-			<li><a href="#mouse-coordinates">Mouse coordinates</a></li>
-			<li><a href="#events">Events</a></li>
-			<li><a href="#user-interface">User interface</a></li>
-			<li><a href="#printexport">Print/export</a></li>
-			<li><a href="#geolocation">Geolocation</a></li>
-		</ul>
-	</div>
-	<div class="toc-col">
-		<h4>Miscellaneous</h4>
-		<ul>
-			<li><a href="#geoprocessing">Geoprocessing</a></li>
-			<li><a href="#routing">Routing</a></li>
-			<li><a href="#geocoding">Geocoding</a></li>
-			<li><a href="#plugin-collections">Plugin collections</a></li>
-		</ul>
-		<h4>Integration</h4>
-		<ul>
-			<li><a href="#frameworks--build-systems">Frameworks &amp; build systems</a></li>
-			<li><a href="#3rd-party-integration">3<sup>rd</sup> party</a></li>
-		</ul>
-		<hr>
-		<a href="#develop-your-own">Develop your own</a>
-	</div>
-
-</div>
-
-
-## Tile & image layers
+## 瓦片和影像图层
 
 The following plugins allow loading different maps and provide functionality to tile and image layers.
 
