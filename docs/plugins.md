@@ -14,7 +14,7 @@ body类: plugins-page
     * [基础图层提供者](#基础图层提供者)
     * [基础图层格式](#基础图层格式)
     * [非地图基础图层](#非地图基础图层)
-    * [瓦片/影像显示](#瓦片/影像显示)
+    * [瓦片/影像显示](#瓦片/影像显示)
     * [瓦片加载](#瓦片加载)
     * [矢量瓦片](#矢量瓦片)
 * [叠加层数据](#叠加层数据)
@@ -57,17 +57,17 @@ body类: plugins-page
 
 ## 瓦片和影像图层
 
-The following plugins allow loading different maps and provide functionality to tile and image layers.
+以下插件允许加载不同的地图，并为瓦片和图像层提供功能。
 
-* [Basemap providers](#basemap-providers)
-* [Basemap formats](#basemap-formats)
-* [Non-map base layers](#non-map-base-layers)
-* [Tile/image display](#tileimage-display)
-* [Tile load](#tile-load)
-* [Vector tiles](#vector-tiles)
+* [基础图层提供者](#基础图层提供者)
+* [基础图层格式](#基础图层格式)
+* [非地图基础图层](#非地图基础图层)
+* [瓦片/影像显示](#瓦片/影像显示)
+* [瓦片加载](#瓦片加载)
+* [矢量瓦片](#矢量瓦片)
 
 
-### Basemap providers
+### 基础图层提供者
 
 Ready-to-go basemaps, with little or no configuration at all.
 
@@ -175,7 +175,7 @@ Ready-to-go basemaps, with little or no configuration at all.
 
 
 
-### Basemap formats
+### 基础图层格式
 
 Plugins for loading basemaps or GIS raster layers in common (albeit non-default) formats.
 
@@ -283,7 +283,7 @@ Plugins for loading basemaps or GIS raster layers in common (albeit non-default)
 </table>
 
 
-### Non-map base layers
+### 非地图基础图层
 
 Sometimes you don't want to load a map, just big custom images. **Really** big ones.
 
@@ -358,7 +358,7 @@ Sometimes you don't want to load a map, just big custom images. **Really** big o
 
 
 
-### Tile/image display
+### 瓦片/影像显示
 
 The following plugins change the way that tile or image layers are displayed in the map.
 
@@ -477,7 +477,7 @@ The following plugins change the way that tile or image layers are displayed in 
 
 
 
-### Tile Load
+### 瓦片加载
 
 The following plugins change the way that tile layers are loaded into the map.
 
@@ -568,7 +568,7 @@ The following plugins change the way that tile layers are loaded into the map.
 
 
 
-### Vector tiles
+### 矢量瓦片
 
 Plugins to display <a href="https://github.com/mapbox/vector-tile-spec">vector tiles</a>.
 
