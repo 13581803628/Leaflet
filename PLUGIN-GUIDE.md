@@ -14,9 +14,9 @@ Leaflet的最值得注意的事情就是它的强大的插件生态系统。[Lea
 	- [文件结构](#文件结构)
 	- [代码公约](#代码公约)
 	- [插件API](#插件API)
-3. [在NPM上发布](#publishing-on-npm)
-4. [模块装载](#module-loaders)
-5. [添加到插件列表](#adding-to-the-plugins-list)
+3. [在NPM中发布](#在NPM中发布)
+4. [模块加载](#模块加载)
+5. [添加到插件列表](#添加到插件列表t)
 
 ## 介绍
 
@@ -89,49 +89,46 @@ package.json
 
 ### 代码公约
 
-Everyone's tastes are different, but it's important to be consistent with whatever conventions you choose for your plugin.
+每个人的代码风格都不一样，但重要的是你要贯彻为插件选择的任何代码风格。
 
-For a good starting point, check out [Airbnb JavaScript Guide](https://github.com/airbnb/javascript).
-Leaflet follows pretty much the same conventions
-except for using smart tabs (hard tabs for indentation, spaces for alignment)
-and putting a space after the `function` keyword.
+想要赢在起跑线，请浏览[Airbnb编写的JavaScript指南](https://github.com/airbnb/javascript).
+除了使用智能缩进（硬tab用于缩进，空格用于对齐）并`function`关键字后面加一个空格外，Leaflet完全遵循相同的代码公约。 
 
 ### 插件API
 
-Never expose global variables in your plugin.<br>
-If you have a new class, put it directly in the `L` namespace (`L.MyPlugin`).<br>
-If you inherit one of the existing classes, make it a sub-property (`L.TileLayer.Banana`).<br>
-Every class should have a factory function in camelCase, e.g. (`L.tileLayer.banana`).<br>
-If you want to add new methods to existing Leaflet classes, you can do it like this: `L.Marker.include({myPlugin: …})`.
+永远不要在你的插件中暴露出全局变量。<br>
+如果你建了一个新类，把它放在`L`命名空间中（`L.MyPlugin`）。<br>
+如果你继承了已经存在的类，把它写作子属性（`L.TileLayer.Banana`）。<br>
+每个类在camelCase中都应该有一个工厂函数，例如`L.titleLayer.banana`。<br>
+如果你想在已经存在的类里添加一个新方法，你可以像这样做： `L.Marker.include({myPlugin: …})`.
 
-Function, method, property and factory names should be in `camelCase`.<br>
-Class names should be in `CapitalizedCamelCase`.
+函数，方法，属性和工厂名称应在`camelCase`中。<br>
+类名应该在`CapitalizedCamelCase`中。
 
-If you have a lot of arguments in your function, consider accepting an options object instead
-(putting default values where possible so that users don't need to specify all of them):
+如果你的函数中有很多参数，请考虑接受一个选项对象（尽可能放置默认值，以便用户不需要指定所有这些值）：
 
 ```js
-// bad
+// 错误做法
 marker.myPlugin('bla', 'foo', null, {}, 5, 0);
 
- // good
+ // 正确做法
 marker.myPlugin('bla', {
 	optionOne: 'foo',
 	optionThree: 5
 });
 ```
 
-And most importantly, keep it simple. Leaflet is all about *simplicity*.
+最重要的是，保持简洁。Leaflet的一切都是简洁的。
 
-## Publishing on NPM
+## 在NPM中发布
 
-NPM (Node Packaged Modules) is a package manager and code repository for JavaScript. Publishing your module on NPM allows other developers to quickly find and install your plugin as well as any other plugins it depends on.
+NPM（Node Packaged Modules）是一个JavaScript包管理器和代码仓库。在NPM上发布你的模块允许其他开发人员快速找到并安装你的插件以及其所依赖的任何其他插件。
 
-NPM has an excellent [developers guide](https://www.npmjs.org/doc/misc/npm-developers.html) to help you through the process.
+NPM 有一个优秀的[开发人员指南](https://www.npmjs.org/doc/misc/npm-developers.html)，帮助你完成整个过程。
 
-When you publish your plugin you should add a dependency on `leaflet` to your `package.json` file. This will automatically install Leaflet when your package is installed.
+发布插件时，你应该添加一个`Leaflet`依赖关系到你的`package.json`文件。这样做是为了当安装插件后后，将自动安装Leaflet。
 
-Here is an example of a `package.json` file for a Leaflet plugin.
+这里有一个Leaflet插件的`package.json`文件例子：
 
 ```json
 {
@@ -147,10 +144,8 @@ Here is an example of a `package.json` file for a Leaflet plugin.
 }
 ```
 
-If possible, do not commit your minified files (e.g. `dist`) to a repo; this can
-lead to confussion when trying to debug the wrong file. Instead, use `npm` to
-trigger a build/minification just before publishing your package with a
-[`prepublish` script](https://docs.npmjs.com/misc/scripts#common-uses), for example:
+如果可能，请勿将你的缩小版文件（例如dist）提交到代码库中；这可能导致在尝试调试错误文件时的混乱。
+相反，在使用[预发布脚本](https://docs.npmjs.com/misc/scripts#common-uses)发布插件包之前，使用npm触发构建/缩小，例如：
 
 ```json
 {
@@ -162,53 +157,53 @@ trigger a build/minification just before publishing your package with a
 }
 ```
 
-You can then use the [`.gitignore`](https://help.github.com/articles/ignoring-files/)
-file to make sure the minified files are not versioned, and an
-[empty `.npmignore`](https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package)
-to ensure that they are published to NPM.
+然后，你可以使用[.gitignore](https://help.github.com/articles/ignoring-files/)文件来确保最小化的文件不被版本化，并且一个and an
+[空的`.npmignore`](https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package)文件以确保它们被发布到NPM。
 
-## Module Loaders
+## 模块加载
 
-Module loaders such as [RequireJS](http://requirejs.org/) and [Browserify](http://browserify.org/) implement module systems like AMD (Asynchronous Module Definition) and CommonJS to allow developers to modularize and load their code.
+如同[RequireJS](http://requirejs.org/) 和 [Browserify](http://browserify.org/) 这样的模块加载器运行模块系统，像AMD（Asynchronous Module Definition）和 CommonJS 一样允许开发者模块化和加载他们的源码。
 
-You can add support for AMD/CommonJS loaders to your Leaflet plugin by following this pattern based on the [Universal Module  Definition](https://github.com/umdjs/umd/blob/master/templates/returnExportsGlobal.js)
+你可以通过遵循[通用模块定义](https://github.com/umdjs/umd/blob/master/templates/returnExportsGlobal.js)的模式，为你的Leaflet插件添加对AMD / CommonJS加载程序的支持。
 
 ```js
 (function (factory, window) {
 
-    // define an AMD module that relies on 'leaflet'
+    // 定义一个依赖于`Leaflet`的AMD模块
     if (typeof define === 'function' && define.amd) {
         define(['leaflet'], factory);
 
-    // define a Common JS module that relies on 'leaflet'
-    } else if (typeof exports === 'object') {
+    
+    } 
+    
+    // 定义一个依赖于`Leaflet`的Common JS模块
+    else if (typeof exports === 'object') {
         module.exports = factory(require('leaflet'));
     }
 
-    // attach your plugin to the global 'L' variable
-    if (typeof window !== 'undefined' && window.L) {
+    // 将你的插件附加到全局变量`L`上
+    if (typeof window !== 'undefined' && window.L) {
         window.L.YourPlugin = factory(L);
     }
 }(function (L) {
     var MyLeafletPlugin = {};
-    // implement your plugin
+    // 运行你的插件
 
-    // return your plugin when you are done
+    // 完成后返回你的插件
     return MyLeafletPlugin;
 }, window));
 ```
 
-Now your plugin is available as an AMD and CommonJS module and can be used in module loaders like Browserify and RequireJS.
+现在，你的插件可以作为AMD和CommonJS模块使用，可以在Browserify和RequireJS这样的模块加载器中使用。
 
 
-## Adding to the plugins list
+## 添加到插件列表
 
-Once your plugin is published, it is a good idea to add it to the [Leaflet plugins list](http://leafletjs.com/plugins.html). To do so:
+一旦你的插件发布完成，把它加入[Leaflet插件列表](http://leafletjs.com/plugins.html)是一个好的想法。像这样做：
 
-* [Fork](https://help.github.com/articles/fork-a-repo/) the Leaflet repo.
-* In the `docs/plugins.md` file, find the section your plugin should go in, and add a table row with information and links about your plugin.
-* Commit the code to your fork.
-* [Open a pull request](https://help.github.com/articles/creating-a-pull-request/) from your fork to Leaflet's original repo.
+* [Fork](https://help.github.com/articles/fork-a-repo/) 这个Leaflet代码库。
+* 在`docs/plugins.md`文件中，找到你的插件应该进入的部分，并添加一个表行说明你的插件的信息和链接。
+* 提交代码到你的`fork`.
+* 从你的fork[推送请求](https://help.github.com/articles/creating-a-pull-request/) 到Leaflet原始库。
 
-Once the pull request is done, a Leaflet maintainer will have a quick look at your
-plugin and, if everything looks right, your plugin will appear in the list shortly thereafter.
+一旦这个推送的请求被传递，Leaflet的维护者会迅速查看你的插件，并且一切看起来是正确的，你的插件此后不久就会出现在列表中。
