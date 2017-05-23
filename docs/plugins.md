@@ -36,7 +36,7 @@ body类: plugins-page
 * [地图交互](#地图交互)
     * [图层切换控制器](#图层切换控制器)
     * [交互式平移/缩放](#交互式平移缩放)
-    * [书签式平移/缩放](#书签式平移缩放)
+    * [书签式平移/缩放](#书签式平移缩放)
     * [全屏](#全屏)
     * [迷你地图和同步地图](#迷你地图和同步地图)
     * [测量](#测量)
@@ -182,13 +182,13 @@ body类: plugins-page
 
 ### 基础图层格式
 
-Plugins for loading basemaps or GIS raster layers in common (albeit non-default) formats.
+用于加载通常格式（虽然是非默认的）的基础图层或者GIS栅格图层的插件。
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件</th><th>描述</th><th>维护人员</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/mylen/leaflet.TileLayer.WMTS">leaflet.TileLayer.WMTS</a>
-		</td><td>Add WMTS (IGN) layering for leaflet.
+		</td><td>给Leaflet添加WMTS (IGN) 分层。
 		</td><td>
 			<a href="https://github.com/mylen">Alexandre Melard</a>
 		</td>
@@ -197,7 +197,7 @@ Plugins for loading basemaps or GIS raster layers in common (albeit non-default)
 		<td>
 			<a href="https://github.com/azgs/azgs-leaflet">azgs-leaflet</a>
 		</td><td>
-			A set of small plugins for Leaflet, including WFS-GeoJSON layer with filtering, a hover control for GeoJSON, and an Esri tile layer.
+			一组用于Leaflet的小插件，包含带有过滤器（GeoJSON的悬停控件）的WFS-GeoJSON图层和Esri瓷砖层。
 		</td><td>
 			<a href="https://github.com/azgs">AZGS</a>
 		</td>
@@ -206,7 +206,7 @@ Plugins for loading basemaps or GIS raster layers in common (albeit non-default)
 		<td>
 			<a href="https://github.com/heigeo/leaflet.wms">leaflet.wms</a>
 		</td><td>
-			Enhanced WMS support for Leaflet, including single-tile/untiled layers, shared WMS sources, and layer identify via GetFeatureInfo.
+			通过GetFeatureInfo增强Leaflet对WMS的支持（包括单瓦片和非瓦片图层）、共享WMS源和图层识别。
 		</td><td>
 			<a href="https://github.com/sheppard/">S. Andrew Sheppard</a><br>(<a href="https://github.com/heigeo/">HEI Geo</a>)
 		</td>
@@ -215,7 +215,7 @@ Plugins for loading basemaps or GIS raster layers in common (albeit non-default)
 		<td>
 			<a href="https://github.com/balrog-kun/Leaflet.bpg">Leaflet.bpg</a>
 		</td><td>
-			TileLayer with <a href="http://bellard.org/bpg/">.bpg</a> image format decoding.
+			使用<a href="http://bellard.org/bpg/">.bpg</a> 图片编码格式的瓦片图层。
 		</td><td>
 			<a href="https://github.com/balrog-kun/">Andrzej Zaborowski</a>
 		</td>
@@ -224,7 +224,7 @@ Plugins for loading basemaps or GIS raster layers in common (albeit non-default)
 		<td>
 			<a href="https://github.com/glenrobertson/leaflet-tilelayer-geojson/">TileLayer.GeoJSON</a>
 		</td><td>
-			A TileLayer for GeoJSON tiles.
+			承载GeoJSON瓦片的瓦片图层。
 		</td><td>
 			<a href="https://github.com/glenrobertson">Glen Robertson</a>
 		</td>
@@ -233,7 +233,7 @@ Plugins for loading basemaps or GIS raster layers in common (albeit non-default)
 		<td>
 			<a href="https://github.com/kartena/leaflet-tilejson">leaflet-tilejson</a>
 		</td><td>
-			Adds support for the <a href="https://github.com/mapbox/TileJSON">TileJSON</a> specification to Leaflet.
+			将<a href="https://github.com/mapbox/TileJSON">TileJSON</a> 规范的支持功能添加到Leaflet。
 		</td><td>
 			<a href="https://github.com/perliedman">Per Liedman</a>, <a href="http://www.kartena.se/">Kartena</a>
 		</td>
@@ -242,7 +242,7 @@ Plugins for loading basemaps or GIS raster layers in common (albeit non-default)
 		<td>
 			<a href="http://vizzuality.github.com/cartodb-leaflet/">cartodb-leaflet</a>
 		</td><td>
-			Official <a href="http://cartodb.com/">CartoDB</a> plugin for Leaflet.
+			官方的针对Leaflet的 <a href="http://cartodb.com/">CartoDB</a> 插件。
 		</td><td>
 			<a href="http://vizzuality.com/">Vizzuality</a>
 		</td>
@@ -251,7 +251,7 @@ Plugins for loading basemaps or GIS raster layers in common (albeit non-default)
 		<td>
 			<a href="https://github.com/emikhalev/leaflet-2gis">Leaflet-2gis</a>
 		</td><td>
-			Adds support for 2GIS tile layer
+			添加对2GIS瓦片层的支持。
 		</td><td>
 			<a href="https://github.com/emikhalev/">Eugene Mikhalev</a>
 		</td>
@@ -260,7 +260,7 @@ Plugins for loading basemaps or GIS raster layers in common (albeit non-default)
 		<td>
 			<a href="https://github.com/geobricks/Leaflet.GeoJSON.Encoded">Leaflet GeoJSON Encoded</a>
 		</td><td>
-			Extends the L.GeoJSON layer using Google polyline encoding algorithm, allowing an optimized data transfer.
+			使用Google折线编码算法扩展L.GeoJSON图层，从而实现优化的数据转换。
 		</td><td>
 			<a href="https://github.com/geobricks/">Geobricks</a>
 		</td>
@@ -269,7 +269,7 @@ Plugins for loading basemaps or GIS raster layers in common (albeit non-default)
 		<td>
 			<a href="https://gitlab.com/IvanSanchez/Leaflet.TileLayer.MBTiles">Leaflet.TileLayer.MBTiles</a>
 		</td><td>
-			Loads <a href="https://github.com/mapbox/mbtiles-spec"><code>.mbtiles</code></a> tilesets.
+			加载<a href="https://github.com/mapbox/mbtiles-spec"><code>.mbtiles</code></a> 瓦片集。
 		</td><td>
 			<a href="https://github.com/IvanSanchez/">Iván Sánchez</a>
 		</td>
@@ -278,9 +278,8 @@ Plugins for loading basemaps or GIS raster layers in common (albeit non-default)
 		<td>
 			<a href="https://github.com/IHCantabria/Leaflet.CanvasLayer.Field">Leaflet.CanvasLayer.Field</a>
 		</td><td>
-			Loads and styles raster files (geotiff & asciigrid formats).
-            It includes a <code>ScalarField</code> layer (for DTM, temperature...) and 
-			<code>VectorFieldAnim</code> (an animated layer for wind, currents...). See the <a href="https://ihcantabria.github.io/Leaflet.CanvasLayer.Field/">examples</a>
+			加载并个性化栅格文件（geotiff和asciigrid格式）。它包含一个<code>ScalarField</code>图层（对于DTM，温度...）和
+			<code>VectorFieldAnim</code>（一个动画层，展现风力、电流...）。详见 <a href="https://ihcantabria.github.io/Leaflet.CanvasLayer.Field/">在线示例。</a>
 		</td><td>
 			<a href="https://github.com/VictorVelarde">Víctor Velarde</a>
 		</td>
