@@ -489,7 +489,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/mattiasb/Leaflet.MultiTileLayer">Leaflet.MultiTileLayer</a>
 		</td><td>
-			Allows to compose a TileLayer from several tile sources. Each source is active only on a defined set of zoomlevels.
+			允许从多个瓦片来源组合瓦片图层。每个源仅在定义的一组缩放级别上有效。
 		</td><td>
 			<a href="https://github.com/mattiasb">Mattias Bengtsson</a>
 		</td>
@@ -498,7 +498,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/ismyrnow/Leaflet.functionaltilelayer">Leaflet.FunctionalTileLayer</a>
 		</td><td>
-			Allows you to define tile layer URLs using a function. Even works with asynchronous sources, using promises.
+			允许你使用函数定义瓦片图层的URL网址。甚至使用异步源，使用<code>promises</code>。
 		</td><td>
 			<a href="https://github.com/ismyrnow">Ishmael Smyrnow</a>
 		</td>
@@ -507,7 +507,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/gregallensworth/L.TileLayer.Cordova">TileLayer.Cordova</a>
 		</td><td>
-			For use with Cordova/Phonegap, adds tile caching onto local device storage, switching between offline and online mode.
+		为了与<a href="http://cordova.axuer.com/">Cordova</a>/<a href="https://github.com/sintaxi/phonegap">Phonegap</a>一起使用，将瓦片图缓存添加到本地设备存储器中，在离线和在线模式之间进行切换。
 		</td><td>
 			<a href="https://github.com/gregallensworth">Greg Allensworth</a>
 		</td>
@@ -516,7 +516,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/MazeMap/Leaflet.TileLayer.PouchDBCached">TileLayer.PouchDBCached</a>
 		</td><td>
-			Allows all Leaflet TileLayers to cache into PouchDB for offline use.
+			允许所有Leaflet瓦片图层缓存到<a href="https://github.com/pouchdb/pouchdb">PouchDB</a>中以供离线使用。
 		</td><td>
 			<a href="https://github.com/IvanSanchez">Iván Sánchez Ortega</a>,
 			<a href="https://github.com/MazeMap">MazeMap</a>
@@ -526,7 +526,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/ebrelsford/Leaflet.loading">Leaflet.loading</a>
 		</td><td>
-			A simple control that adds a loading indicator as tiles and other data are loaded.
+			添加一个加载指示器作为瓦片和其他数据加载的简单控件。
 		</td><td>
 			<a href="https://github.com/ebrelsford/">Eric Brelsford</a>
 		</td>
@@ -535,7 +535,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/TolonUK/Leaflet.EdgeBuffer">Leaflet.EdgeBuffer</a>
 		</td><td>
-			Buffer tiles beyond the edge of the viewport, for Leaflet 1.0. <a href="http://www.tolon.co.uk/Leaflet.EdgeBuffer/comparison.html">Demo</a>.
+			缓存超过视窗边缘的瓦片图块，用于Leaflet 1.0版本。<a href="http://www.tolon.co.uk/Leaflet.EdgeBuffer/comparison.html">在线演示</a>.
 		</td><td>
 			<a href="https://github.com/TolonUK">Alex Paterson</a>
 		</td>
@@ -544,7 +544,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/ghybs/Leaflet.TileLayer.Fallback">Leaflet.TileLayer.Fallback</a>
 		</td><td>
-			Replaces missing Tiles (HTTP 404 Not Found Error) by scaled up equivalent Tiles from lower zooms.
+			用从较小的缩放级别放大等效的瓦片替换加载丢失的瓦片图块（HTTP 404 异常：未发现资源）。
 		</td><td>
 			<a href="https://github.com/ghybs">ghybs</a>
 		</td>
@@ -553,7 +553,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/Outdooractive/Leaflet.FeatureGroup.LoadEvents">Leaflet.FeatureGroup.LoadEvents</a>
 		</td><td>
-			`FeatureGroup` that supports the `"loading"` and `"load"` events (for v0.7.*).
+			1支持`loading`和`load`事件的FeatureGroup`（用于v 0.7.* 版本）。
 		</td><td>
 			<a href="http://glat.info">G. Lathoud</a>, <a href="http://www.outdooractive.com">Outdooractive</a>.
 		</td>
@@ -562,7 +562,7 @@ body类: plugins-page
 		<td>
 			<a href="https://gitlab.com/IvanSanchez/Leaflet.GridLayer.FadeOut">Leaflet.GridLayer.FadeOut</a>
 		</td><td>
-			Fades out grid layers and tilelayers when they are removed, making basemap changes smoother (for 1.0.0). <a href="http://ivansanchez.gitlab.io/Leaflet.GridLayer.FadeOut/demo.html">Demo</a>.
+			1当移除网格层和瓦片时使用淡出效果，使底图更改更平滑（用于1.0.0版本）。<a href="http://ivansanchez.gitlab.io/Leaflet.GridLayer.FadeOut/demo.html">在线演示</a>.
 		</td><td>
 			<a href="https://github.com/IvanSanchez">Iván Sánchez</a>
 		</td>
@@ -575,12 +575,12 @@ body类: plugins-page
 
 展示<a href="https://github.com/mapbox/vector-tile-spec">矢量瓦片</a>的插件。
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件</th><th>描述</th><th>维护方</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/SpatialServer/Leaflet.MapboxVectorTile">Leaflet.MapboxVectorTile</a>
 		</td><td>
-			A Leaflet Plugin that renders Mapbox Vector Tiles on canvas. See <a href="http://spatialserver.github.io/Leaflet.MapboxVectorTile/examples/confetti.html">demo</a>. Compatible with Leaflet 0.7.x only.
+			一个Leaflet插件，用于在canvas画布上渲染Mapbox矢量瓦片。详见<a href="http://spatialserver.github.io/Leaflet.MapboxVectorTile/examples/confetti.html">在线演示</a>。仅与Leaflet 0.7.x 版本兼容。
 		</td><td>
 			<a href="http://spatialdev.com/">SpatialDev</a>
 		</td>
@@ -589,7 +589,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/devTristan/hoverboard">Hoverboard</a>
 		</td><td>
-			Render vector tiles on canvas with leaflet (geojson, topojson, and protobuf). See <a href="http://tristan.io/hoverboard/">demo</a>. Compatible with Leaflet 0.7.x only.
+			1基于Leaflet（GeoJSON、TopJSON和Protobuf）在Canvas画布上渲染矢量瓦片。详见 <a href="http://tristan.io/hoverboard/">在线演示</a>. 仅与Leaflet 0.7.x 版本兼容。
 		</td><td>
 			<a href="http://tristan.io/">Tristan Davies</a>
 		</td>
@@ -598,7 +598,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/mapbox/geojson-vt">geojson-vt</a>
 		</td><td>
-			Efficient library for slicing GeoJSON data into vector tiles on the fly.
+			高效的库将GeoJSON数据切换成矢量瓦片。
 		</td><td>
 			<a href="https://www.mapbox.com/">Mapbox</a>
 		</td>
@@ -607,7 +607,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/IvanSanchez/Leaflet.VectorGrid">Leaflet.VectorGrid</a>
 		</td><td>
-			Display gridded vector data (GeoJSON or TopoJSON sliced with geojson-vt, or protobuf vector tiles) in Leaflet 1.0.0. See <a href="https://github.com/IvanSanchez/Leaflet.VectorGrid#demo">demos</a>. Not compatible with 0.7.x.
+			在Leaflet 1.0.0版本中显示网格矢量数据（由geojson-vt切割的GeoJSON或者TopJSON，抑或protobuf矢量瓦片）。详见 <a href="https://github.com/IvanSanchez/Leaflet.VectorGrid#demo">在线演示</a>。和 0.7.x版本不兼容。
 		</td><td>
 			<a href="https://github.com/IvanSanchez">Iván Sánchez</a>
 		</td>
@@ -628,12 +628,12 @@ body类: plugins-page
 
 从各种GIS格式加载你自己的数据。
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件</th><th>描述</th><th>维护方</th></tr>
     <tr>
 		<td>
 			<a href="https://github.com/mapbox/leaflet-omnivore">leaflet-omnivore</a>
 		</td><td>
-			Loads &amp; converts CSV, KML, GPX, TopoJSON, WKT formats for Leaflet.
+			加载 &amp; 转换 Leaflet 的 CSV、KML、GPX、TopoJSON、WKT 格式数据。
 		</td><td>
 			<a href="https://github.com/mapbox">Mapbox</a>
 		</td>
@@ -642,7 +642,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/makinacorpus/Leaflet.FileLayer">Leaflet.FileLayer</a>
 		</td><td>
-			Loads files (GeoJSON, GPX, KML) into the map using the HTML5 FileReader API (i.e. locally without server).
+			1使用HTML5的FileRaeder接口（本地功能，非服务）加载（GeoJson、GPX、KML）文件到地图中。
 		</td><td>
 			<a href="https://github.com/leplatrem">Mathieu Leplatre</a>
 		</td>
@@ -651,7 +651,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/joker-x/Leaflet.geoCSV">Leaflet.geoCSV</a>
 		</td><td>
-			Leaflet plugin for loading a CSV file as geoJSON layer.
+			在Leaflet中加载CSV文件作为GeoJSON图层。
 		</td><td>
 			<a href="https://github.com/joker-x">Iván Eixarch</a>
 		</td>
@@ -660,7 +660,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/calvinmetcalf/leaflet.shapefile">Leaflet.Shapefile</a>
 		</td><td>
-			Put a shapefile onto your map as a layer.
+			将shapefile文件放到你的地图中作为一个图层。
 		</td><td>
 			<a href="https://github.com/calvinmetcalf">Calvin Metcalf</a>
 		</td>
@@ -669,7 +669,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/calvinmetcalf/leaflet.filegdb">Leaflet.FileGDB</a>
 		</td><td>
-			Put an ESRI File GeoDatabase onto your map as a layer.
+			将ESRI文件地理数据库放到你的地图中作为一个图层。
 		</td><td>
 			<a href="https://github.com/calvinmetcalf">Calvin Metcalf</a>
 		</td>
@@ -678,7 +678,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/jieter/Leaflet.encoded">Leaflet.encoded</a>
 		</td><td>
-			Use encoded polylines in Leaflet.
+			在Leaflet中使用编码线。
 		</td><td>
 			<a href="https://github.com/jieter">Jieter</a>
 		</td>
@@ -687,7 +687,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/mpetazzoni/leaflet-gpx">Leaflet GPX</a>
 		</td><td>
-			GPX layer, targeted at sporting activities by providing access to information such as distance, moving time, pace, elevation, heart rate, etc.
+			GPX图层，通过提供信息访问来分析运动活动，如距离、移动时间、速度、海拔、心率等等。
 		</td><td>
 			<a href="https://github.com/mpetazzoni/">Maxime Petazzoni</a>
 		</td>
@@ -696,7 +696,7 @@ body类: plugins-page
 		<td>
 			<a href="http://arthur-e.github.com/Wicket/">Wicket</a>
 		</td><td>
-			A modest library for translating between Well-Known Text (WKT) and Leaflet geometry objects (e.g. between L.marker() instances and "POINT()" strings).
+		1一个温和的库，用来在Well-Known Text (WKT) 和 Leaflet 几何对象之间做转换（即，在<code>L.marker()</code>实例和<code>"POINT()"</code>字符串之间转换）。
 		</td><td>
 			<a href="https://github.com/arthur-e/">K. Arthur Endsley</a>
 		</td>
@@ -705,7 +705,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/tomchadwin/qgis2web">qgis2web</a>
 		</td><td>
-			A <a href="http://qgis.org/">QGIS</a> plugin to make webmaps without coding.
+			一个 <a href="http://qgis.org/">QGIS</a> 插件，用来无需编码制作网页地图。
 		</td><td>
 			<a href="https://github.com/tomchadwin">Tom Chadwin</a>
 		</td>
@@ -714,7 +714,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/Flexberry/Leaflet-WFST">Leaflet-WFST</a>
 		</td><td>
-			<a href="http://www.opengeospatial.org/standards/wfs">WFS</a> client layer with transaction support
+			具有事务支持的<a href="http://www.opengeospatial.org/standards/wfs">WFS</a>客户层。
 		</td><td>
 			<a href="https://github.com/Flexberry/">Flexberry</a>
 		</td>
@@ -723,7 +723,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/daniellsu/leaflet-betterscale">Leaflet-BetterScale</a>
 		</td><td>
-			A new, more GIS-like scalebar with alternating black/white bars.
+			一个新的比例尺图标，更像GIS行业中常用的黑白条。
 		</td><td>
 			<a href="https://github.com/daniellsu/">Dan Brown</a>
 		</td>
@@ -732,7 +732,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/ngageoint/geopackage-js/tree/master/leaflet">Leaflet-GeoPackage</a>
 		</td><td>
-			Load <a href="http://www.geopackage.org/">GeoPackage</a> Tile and Feature Layers.
+			加载 <a href="http://www.geopackage.org/">GeoPackage</a> 瓦片和专题图层。
 		</td><td>
 			<a href="https://github.com/danielbarela">Daniel Barela</a>,
 			<a href="https://github.com/ngageoint">NGA</a>
