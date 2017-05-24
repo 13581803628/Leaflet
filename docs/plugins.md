@@ -746,12 +746,12 @@ body类: plugins-page
 
 加载在地图中更新的动态数据，或者以非标准方式加载GIS矢量数据。
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件</th><th>描述</th><th>维护方</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/perliedman/leaflet-realtime">Leaflet Realtime</a>
 		</td><td>
-			Put realtime data on a Leaflet map: live tracking GPS units, sensor data or just about anything.
+			在Leaflet地图中放入实时数据：在线GPS追踪单位、传感器数据或其他任何数据。
 		</td><td>
 			<a href="https://github.com/perliedman/">Per Liedman</a>
 		</td>
@@ -760,7 +760,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/calvinmetcalf/leaflet-ajax">Leaflet Ajax</a>
 		</td><td>
-			Add GeoJSON data via ajax or jsonp.
+			1通过AJAX或者Jsonp添加GeoJson数据。
 		</td><td>
 			<a href="https://github.com/calvinmetcalf/">Calvin Metcalf</a>
 		</td>
@@ -770,7 +770,7 @@ body类: plugins-page
 			<a href="https://github.com/tinuzz/leaflet-liveupdate">Leaflet.Liveupdate</a>
 		</td>
 		<td>
-			Periodically ('live') update something on a map (<a href="https://www.grendelman.net/leaflet/">Demo</a>)
+			定期（'在线'）更新地图上的东西 (<a href="https://www.grendelman.net/leaflet/">在线示例</a>)。
 		</td>
 		<td>
 			<a href="https://github.com/tinuzz/">Martijn Grendelman</a>
@@ -780,7 +780,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/calvinmetcalf/leaflet.pouch">Leaflet.Pouch</a>
 		</td><td>
-			Use PouchDB to sync CouchDB data to local storage (indexedDB), to just add couchDB data or as just a less confusing implementation of indexedDB.
+			使用PouchDB将CouchDB数据同步到本地存储（indexedDB），只需添加couchDB数据，或者只是一个较少的令人困惑的indexedDB实现。
 		</td><td>
 			<a href="https://github.com/calvinmetcalf/">Calvin Metcalf</a>
 		</td>
@@ -789,7 +789,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/cbaines/leaflet-indoor">Leaflet.Indoor</a>
 		</td><td>
-			Create indoor maps.
+			创建室内地图。
 		</td><td>
 			<a href="https://github.com/cbaines">Christopher Baines</a>
 		</td>
@@ -798,7 +798,7 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/BenjaminVadant/leaflet-ugeojson">Leaflet uGeoJSON</a>
 		</td><td>
-			Add an auto updating GeoJSON data Layer via ajax post requests.
+			通过ajax post请求添加自动更新GeoJSON数据层。
 		</td><td>
 			<a href="https://github.com/BenjaminVadant/">Benjamin VADANT</a>
 		</td>
@@ -809,14 +809,14 @@ body类: plugins-page
 
 ### 合成叠加层
 
-These plugins create useful overlays from scratch, no loading required.
+这些插件从头开始创建有用的叠加层，无需加载。
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件</th><th>描述</th><th>维护方</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/turban/Leaflet.Graticule">Leaflet.Graticule</a>
 		</td><td>
-			Draws a grid of latitude and longitude lines.
+			画一条经纬线网格。
 		</td><td>
 			<a href="https://github.com/turban">Bjørn Sandvik</a>
 		</td>
@@ -825,7 +825,7 @@ These plugins create useful overlays from scratch, no loading required.
 		<td>
 			<a href="https://github.com/ablakey/Leaflet.SimpleGraticule">Leaflet.SimpleGraticule</a>
 		</td><td>
-			Draws a grid lines for L.CRS.Simple coordinate system.
+			基于`L.CRS.Simple`坐标系统绘制一个网格线。
 		</td><td>
 			<a href="https://github.com/ablakey">Andrew Blakey</a>
 		</td>
@@ -833,7 +833,7 @@ These plugins create useful overlays from scratch, no loading required.
 	<tr>
 		<td>
 			<a href="https://github.com/joergdietrich/Leaflet.Terminator">Leaflet.Terminator</a>
-		</td><td>Overlay day and night regions on a map.
+		</td><td>在地图上叠加日夜地区。
 		</td><td>
 			<a href="https://github.com/joergdietrich">J&ouml;rg Dietrich</a>
 		</td>
@@ -843,7 +843,8 @@ These plugins create useful overlays from scratch, no loading required.
 			<a href="https://github.com/cloudybay/leaflet.latlng-graticule">leaflet.latlng-graticule</a>
 		</td>
 		<td>
-			Create a Canvas as ImageOverlay to draw the Lat/Lon Graticule, and show the grid tick label at the edges of the map.<a href="https://cloudybay.github.io/leaflet.latlng-graticule/example/">Demo</a>.
+			创建一个Canvas画布作为影像叠加层绘制经纬线，并在地图的边缘显示网格刻度标签。
+			<a href="https://cloudybay.github.io/leaflet.latlng-graticule/example/">在线演示</a>.
 		</td>
 		<td>
 			<a href="https://github.com/cloudybay/">CloudyBay</a>
@@ -855,14 +856,14 @@ These plugins create useful overlays from scratch, no loading required.
 
 ### 数据提供者
 
-Load overlay data from third-party-services. See also [basemap providers](#basemap-providers) and [plugin collections](#collections).
+从第三方服务加载叠加层数据。也可参照 [基础图层服务商](#基础图层提供者) 和 [插件集合](#插件集合).
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件</th><th>描述</th><th>维护方</th></tr>
 	<tr>
 		<td>
 			<a href="http://geojason.info/leaflet-vector-layers/">Leaflet Vector Layers</a>
 		</td><td>
-			Allows to easily create vector layers from a number of geo web services, such as ArcGIS Server, Arc2Earth, GeoIQ, CartoDB and GIS Cloud.
+			允许从多个地理网络服务（如ArcGIS Server、Arc2Earth、GeoIQ、CartoDB和GIS Cloud）轻松创建矢量图层。
 		</td><td>
 			<a href="http://geojason.info">Jason Sanford</a>
 		</td>
@@ -871,7 +872,7 @@ Load overlay data from third-party-services. See also [basemap providers](#basem
 		<td>
 			<a href="https://github.com/kartenkarsten/leaflet-layer-overpass/">Leaflet Layer Overpass</a>
 		</td><td>
-      Easily include data from the <a href="http://overpass-api.de">overpass api</a>.
+		     	从 <a href="http://overpass-api.de">overpass api</a>简单引入数据。
 		</td><td>
 			<a href="https://github.com/kartenkarsten">kartenkarsten</a>
 		</td>
@@ -880,7 +881,7 @@ Load overlay data from third-party-services. See also [basemap providers](#basem
 		<td>
 			<a href="https://github.com/kr1/Leaflet.dbpediaLayer/">Leaflet.dbpediaLayer</a>
 		</td><td>
-			A layer with Points of interest from Wikipedia - loaded via ajax from DBpedia's SPARQL endpoint.
+			维基百科的兴趣点图层 - 从DBpedia的SPARQL端口通过ajax加载。
 		</td><td>
 			<a href="https://github.com/kr1/">Kr1</a>
 		</td>
@@ -890,7 +891,7 @@ Load overlay data from third-party-services. See also [basemap providers](#basem
 			<a href="https://github.com/MatthewBarker/leaflet-wikipedia">Leaflet-Wikipedia</a>
 		</td>
 		<td>
-			A leaflet plugin to display Wikipedia API entries on a map layer.
+			用于在地图层上显示维基百科API条目的Leaflet插件。
 		</td>
 		<td>
 			<a href="https://github.com/MatthewBarker">Matthew Barker</a>
@@ -902,13 +903,13 @@ Load overlay data from third-party-services. See also [basemap providers](#basem
 
 ## 叠加层显示
 
-The following plugins provide new ways of displaying overlay data information.
+以下插件提供了显示叠加层数据信息的新方式。
 
-* [Markers & renderers](#markers--renderers)
-* [Overlay animations](#overlay-animations)
-* [Clustering/decluttering](#clusteringdecluttering)
-* [Heatmaps](#heatmaps)
-* [DataViz](#dataviz)
+* [标记和渲染器](#标记和渲染器)
+* [叠加层动画](#叠加层动画)
+* [聚类/整合](#聚类整合)
+* [热力图](#热力图)
+* [数据可视化](#数据可视化)
 
 
 ### 标记和渲染器
