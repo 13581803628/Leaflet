@@ -3367,7 +3367,6 @@ The following plugins use external services to calculate driving or walking rout
 			<a href="http://www.nearest.place/">Nearest!</a>
 		</td>
 	</tr>
-
 	<tr>
     		<td>
     			<a href="https://github.com/BKGiser/Leaflet.Routing.Amap">Leaflet.Routing.Amap</a>
