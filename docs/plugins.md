@@ -482,9 +482,9 @@ body类: plugins-page
 
 ### 瓦片加载
 
-The following plugins change the way that tile layers are loaded into the map.
+以下插件更改了将瓦片图层加载到地图中的方式。
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件</th><th>描述</th><th>维护方</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/mattiasb/Leaflet.MultiTileLayer">Leaflet.MultiTileLayer</a>
@@ -573,7 +573,7 @@ The following plugins change the way that tile layers are loaded into the map.
 
 ### 矢量瓦片
 
-Plugins to display <a href="https://github.com/mapbox/vector-tile-spec">vector tiles</a>.
+展示<a href="https://github.com/mapbox/vector-tile-spec">矢量瓦片</a>的插件。
 
 <table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
 	<tr>
@@ -617,7 +617,7 @@ Plugins to display <a href="https://github.com/mapbox/vector-tile-spec">vector t
 
 ## 叠加层数据
 
-The following plugins provide new ways of loading overlay data (GIS vector data): points, lines and polygons.
+以下插件提供了加载叠加层数据（GIS矢量数据，点、线、多边形）的新方法。
 
 * [叠加层数据格式](#叠加层数据格式)
 * [动态及自定义数据加载](#动态及自定义数据加载)
@@ -626,7 +626,7 @@ The following plugins provide new ways of loading overlay data (GIS vector data)
 
 ### 叠加层数据格式
 
-Load your own data from various GIS formats.
+从各种GIS格式加载你自己的数据。
 
 <table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
     <tr>
@@ -744,7 +744,7 @@ Load your own data from various GIS formats.
 
 ### 动态及自定义数据加载
 
-Load dynamic data which is updated in the map, or load GIS vector data in non-standard ways.
+加载在地图中更新的动态数据，或者以非标准方式加载GIS矢量数据。
 
 <table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
 	<tr>
@@ -1539,50 +1539,57 @@ These plugins create heatmaps and heatmap-like visualizations from vector data.
 	<tr>
 		<td>
 			<a href="https://github.com/sunng87/heatcanvas">HeatCanvas</a>
-		</td><td>
+		</td>
+		<td>
 			Simple heatmap api based on HTML5 canvas.
-		</td><td>
+		</td>
+		<td>
 			<a href="https://github.com/sunng87">Sun Ning</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
 			<a href="http://www.patrick-wied.at/static/heatmapjs/example-heatmap-leaflet.html">heatmap.js</a>
-		</td><td>
-			JavaScript Library for HTML5 canvas based heatmaps.
-
-			Its Leaflet layer implementation supports large datasets because it is tile based and uses a quadtree index to store the data.
-		</td><td>
+		</td>
+		<td>
+			JavaScript Library for HTML5 canvas based heatmaps.<br>
+			Its Leaflet layer implementation supports large datasets 
+			because it is tile based and uses a quadtree index to store the data.
+		</td>
+		<td>
 			<a href="https://github.com/pa7">Patrick Wied</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
 			<a href="https://github.com/dpiccone/leaflet-div-heatmap">Leaflet divHeatmap</a>
-		</td><td>
+		</td>
+		<td>
 			Lightweight and versatile heatmap layer based on CSS3 and divIcons
-
-		</td><td>
+		</td>
+		<td>
 			<a href="https://github.com/dpiccone">Daniele Piccone</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
 			<a href="http://ursudio.com/webgl-heatmap-leaflet/">WebGL Heatmap</a>
-		</td><td>
+		</td>
+		<td>
 			High performance Javascript heatmap plugin using WebGL.
-
-		</td><td>
+		</td>
+		<td>
 			<a href="https://twitter.com/bozdoz">Benjamin J DeLong</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
 			<a href="https://github.com/Leaflet/Leaflet.heat">Leaflet.heat</a>
-		</td><td>
+		</td>
+		<td>
 			A tiny, simple and fast Leaflet heatmap plugin. Uses <a href='https://github.com/mourner/simpleheat'>simpleheat</a> under the hood, additionally clustering points into a grid for performance. (<a href='http://leaflet.github.io/Leaflet.heat/demo'>Demo</a>)
-
-		</td><td>
+		</td>
+		<td>
 			<a href="https://github.com/mourner">Vladimir Agafonkin</a>
 		</td>
 	</tr>
@@ -1692,47 +1699,62 @@ The following plugins enable users to interact with overlay data: edit geometrie
 
 Allows users to create, draw, edit and/or delete points, lines and polygons.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins">
+	<tr>
+		<th>Plugin</th>
+		<th>Description</th>
+		<th>Maintainer</th>
+	</tr>
 	<tr>
 		<td>
 			<a href="https://github.com/codeofsumit/leaflet.pm">Leaflet.PM</a>
-		</td><td>
+		</td>
+		<td>
 			Geometry Management for Leaflet 1.0. Draw, Edit, Drag and Snap Polylines, Polygons, LayerGroups and geoJSON.
-		</td><td>
+		</td>
+		<td>
 			<a href="https://github.com/codeofsumit">Sumit Kumar</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
 			<a href="https://github.com/Wildhoney/Leaflet.FreeDraw">Leaflet.FreeDraw</a>
-		</td><td>
+		</td>
+		<td>
 			Zoopla inspired freehand polygon creation using Leaflet.js and D3.
-		</td><td>
+		</td>
+		<td>
 			<a href="https://github.com/Wildhoney">Wildhoney</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
 			<a href="https://github.com/scripter-co/leaflet-plotter">Leaflet.plotter</a>
-		</td><td>
-			leaflet-plotter allows you to create routes using a leaflet powered map. You can click on the mid-points to create a new, draggable point.
-		</td><td>
+		</td>
+		<td>
+			leaflet-plotter allows you to create routes using a leaflet powered map. 
+			You can click on the mid-points to create a new, draggable point.
+		</td>
+		<td>
 			<a href="https://github.com/scripter-co">Nathan Mahdavi</a>
 		</td>
 	</tr>
-
 	<tr>
 		<td>
 			<a href="https://github.com/tkrajina/leaflet-editable-polyline">Leaflet.Editable.Polyline</a>
-		</td><td>Editable polylines: move existing points, add new points and split polylines.
-		</td><td>
+		</td>
+		<td>
+			Editable polylines: move existing points, add new points and split polylines.
+		</td>
+		<td>
 			<a href="https://github.com/tkrajina">Tomo Krajina</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
 			<a href="https://github.com/Leaflet/Leaflet.draw">Leaflet.draw</a>
-		</td><td>
+		</td>
+		<td>
 			Enables drawing features like polylines, polygons, rectangles, circles and markers through a very nice user-friendly interface with icons and hints. <em>Recommended!</em>
 		</td><td>
 			<a href="https://github.com/jacobtoye">Jacob Toye</a>
@@ -1842,7 +1864,7 @@ Allows users to create, draw, edit and/or delete points, lines and polygons.
 			<a href="https://github.com/manleyjster">Justin Manley</a>
 		</td>
 	</tr>
-<tr>
+	<tr>
 		<td>
 			<a href="https://github.com/kklimczak/Leaflet.Pin">Leaflet.Pin</a>
 		</td><td>
@@ -2781,7 +2803,12 @@ Show the geographical coordinates under the mouse cursor in different ways.
 
 These plugins extend Leaflet event handling.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins">
+	<tr>
+		<th>Plugin</th>
+		<th>Description</th>
+		<th>Maintainer</th>
+	</tr>
 	<tr>
 		<td>
 			<a href="https://github.com/CliffCloud/Leaflet.Sleep">L.Sleep</a>
@@ -2853,7 +2880,6 @@ These plugins extend Leaflet event handling.
 			<a href="https://github.com/MazeMap">MazeMap</a>
 		</td>
 	</tr>
-
 	<tr>
 	        <td>
 	            <a href="https://github.com/MazeMap/Leaflet.VisualClick">Leaflet.VisualClick</a>
@@ -2941,7 +2967,6 @@ Buttons, sliders, toolbars, sidebars, and panels.
 		</td><td>
 			<a href="https://github.com/ahalota/">Anika Halota</a>
 		</td>
-
 	</tr>
 	<tr>
 		<td>
@@ -3333,7 +3358,6 @@ The following plugins use external services to calculate driving or walking rout
 			<a href="http://www.motionintelligence.net/">Motion Intelligence GmbH</a>
 		</td>
 	</tr>
-
 	<tr>
 		<td>
 			<a href="https://github.com/StephanGeorg/leaflet-routeboxer">Leaflet RouteBoxer</a>
