@@ -363,14 +363,14 @@ body类: plugins-page
 
 ### 瓦片/影像显示
 
-The following plugins change the way that tile or image layers are displayed in the map.
+以下插件会更改瓦片图层或影像图层在地图中的显示方式。
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件</th><th>描述</th><th>维护方</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/aparshin/leaflet-boundary-canvas">TileLayer.BoundaryCanvas</a>
 		</td><td>
-			Allows you to draw tile layers with arbitrary polygonal boundary. HTML5 Canvas is used for rendering.
+			允许你绘制具有任意多边形边界的瓦片图层。用HTML5的Canvas画布渲染。
 		</td><td>
 			<a href="https://github.com/aparshin">Alexander Parshin</a>
 		</td>
@@ -379,7 +379,7 @@ The following plugins change the way that tile or image layers are displayed in 
 		<td>
 			<a href="https://github.com/Zverik/leaflet-grayscale/">TileLayer.Grayscale</a>
 		</td><td>
-			A regular TileLayer with grayscale makeover.
+			一个经过灰度改造的瓦片图层。 
 		</td><td>
 			<a href="https://github.com/Zverik">Ilya Zverev</a>
 		</td>
@@ -387,7 +387,7 @@ The following plugins change the way that tile or image layers are displayed in 
 	<tr>
 		<td>
 			<a href="https://github.com/ScanEx/Leaflet.imageTransform">Leaflet.ImageTransform</a>
-		</td><td>Add support of image overlays with arbitrary perspective transformation.
+		</td><td>提供各种透视转换影像叠加层的功能。
 		</td><td>
 			<a href="https://github.com/aparshin">Alexander Parshin</a>,
 			<a href="https://github.com/OriginalSin">Sergey Alekseev</a>
@@ -397,7 +397,7 @@ The following plugins change the way that tile or image layers are displayed in 
 		<td>
 			<a href="https://github.com/lizardtechblog/Leaflet.OpacityControls">Leaflet.OpacityControls</a>
 		</td><td>
-			Simple Leaflet controls to adjust the opacity of a map layer.
+			简单的Leaflet控件来调整地图图层的不透明度。
 		</td><td>
 			<a href="https://github.com/lizardtechblog/">Jared Dominguez</a>
 		</td>
@@ -406,7 +406,7 @@ The following plugins change the way that tile or image layers are displayed in 
 		<td>
 			<a href="https://github.com/publiclab/Leaflet.DistortableImage">Leaflet.DistortableImage</a>
 		</td><td>
-			Enable users to <a href="https://publiclab.github.io/Leaflet.DistortableImage/examples/">scale, rotate, and distort images</a> on Leaflet maps.
+			使用户可以在Leaflet地图上 <a href="https://publiclab.github.io/Leaflet.DistortableImage/examples/">按比例缩放、旋转和扭曲图像</a> 。
 		</td><td>
 			<a href="https://github.com/publiclab">Public Lab</a>
 		</td>
@@ -415,7 +415,7 @@ The following plugins change the way that tile or image layers are displayed in 
 		<td>
 			<a href="https://github.com/IvanSanchez/Leaflet.ImageOverlay.Rotated">Leaflet.ImageOverlay.Rotate</a>
 		</td><td>
-			Displays rotated, scaled and skewed (but not rubbersheeted) ImageOverlays, given three control points. (<a href='http://ivansanchez.github.io/Leaflet.ImageOverlay.Rotated/demo.html'>demo</a>).
+			显示经过旋转、缩放和偏斜（并不是拉伸变形）后的影像叠加层，并给了三个控制点标记。(<a href='http://ivansanchez.github.io/Leaflet.ImageOverlay.Rotated/demo.html'>在线演示</a>).
 		</td><td>
 			<a href="https://github.com/IvanSanchez">Iván Sánchez Ortega</a>
 		</td>
@@ -424,7 +424,7 @@ The following plugins change the way that tile or image layers are displayed in 
 		<td>
 			<a href="https://github.com/frogcat/leaflet-tilelayer-mask">Leaflet.TileLayer.Mask</a>
 		</td><td>
-			A TileLayer with mask effect (<a href="http://frogcat.github.io/leaflet-tilelayer-mask/default/">demo</a>)
+			带有蒙版效果的瓦片图层(<a href="http://frogcat.github.io/leaflet-tilelayer-mask/">在线演示</a>)
 		</td><td>
 			<a href="https://github.com/frogcat">Yuzo Matsuzawa</a>
 		</td>
@@ -433,9 +433,9 @@ The following plugins change the way that tile or image layers are displayed in 
 		<td>
 			<a href="https://github.com/GreenInfo-Network/L.TileLayer.PixelFilter/">Leaflet.TileLayer.PixelFilter</a>
 		</td><td>
-			A TileLayer which can filter and replace pixels by RGB code.
+			可以通过RGB代码过滤和替换像素的瓦片图层。
 			<br/>
-			<a href="http://greeninfo-network.github.io/L.TileLayer.PixelFilter/demo1.html">demo 1</a> &bull; <a href="http://greeninfo-network.github.io/L.TileLayer.PixelFilter/demo2.html">demo 2</a>
+			<a href="http://greeninfo-network.github.io/L.TileLayer.PixelFilter/demo1.html">在线演示 1</a> &bull; <a href="http://greeninfo-network.github.io/L.TileLayer.PixelFilter/demo2.html">在线演示 2</a>
 		</td><td>
 			<a href="https://github.com/GreenInfo-Network/">GreenInfo Network</a>
 		</td>
@@ -444,7 +444,7 @@ The following plugins change the way that tile or image layers are displayed in 
 		<td>
 			<a href="https://github.com/digidem/leaflet-side-by-side">Leaflet.Control.SideBySide</a>
 		</td><td>
-			A Leaflet control to add a split screen to compare two map overlays (<a href="http://lab.digital-democracy.org/leaflet-side-by-side/">demo</a>).
+			A一个 Leaflet 控件，用来添加一个分屏来对比两个地图覆盖层 (<a href="http://lab.digital-democracy.org/leaflet-side-by-side/">在线演示</a>).
 		</td><td>
 			<a href="http://www.digital-democracy.org">Digital Democracy</a>
 		</td>
@@ -453,7 +453,7 @@ The following plugins change the way that tile or image layers are displayed in 
 		<td>
 			<a href="https://gitlab.com/IvanSanchez/Leaflet.TileLayer.GL">Leaflet.TileLayer.GL</a>
 		</td><td>
-			Applies custom WebGL shaders to each tile in a tilelayer. Demos: <a href="http://ivansanchez.gitlab.io/Leaflet.TileLayer.GL/demo/demo-mandelbrot.html">Mandelbrot set</a>, <a href="http://ivansanchez.gitlab.io/Leaflet.TileLayer.GL/demo/demo-antitoner.html">manipulate tile colours</a>, <a href="http://ivansanchez.gitlab.io/Leaflet.TileLayer.GL/demo/demo-floow.html">elevation with terrain-RBG tiles</a>.
+			将自定义WebGL着色器应用于瓦片图层中的每个图块。 演示案例： <a href="http://ivansanchez.gitlab.io/Leaflet.TileLayer.GL/demo/demo-mandelbrot.html">Mandelbrot集</a>, <a href="http://ivansanchez.gitlab.io/Leaflet.TileLayer.GL/demo/demo-antitoner.html">操纵瓦片颜色</a>, <a href="http://ivansanchez.gitlab.io/Leaflet.TileLayer.GL/demo/demo-hypsometric.html">带有地形RBG瓦片的高程</a>.
 		</td><td>
 			<a href="https://github.com/IvanSanchez">Iván Sánchez</a>
 		</td>
@@ -462,7 +462,7 @@ The following plugins change the way that tile or image layers are displayed in 
 		<td>
 			<a href="https://github.com/frogcat/leaflet-tilelayer-colorpicker">Leaflet.TileLayer.ColorPicker</a>
 		</td><td>
-			A Leaflet TileLayer with getColor(latLng). Demos: <a href="https://frogcat.github.io/leaflet-tilelayer-colorpicker/">color picker</a>, <a href="https://frogcat.github.io/leaflet-tilelayer-colorpicker/mapbox-terrain-rgb.html">elevation picker with mapbox terrain-RGB</a>
+		具有<code>getColor(latLng)</code> 方法的Leaflet瓦片图层。在线演示：<a href="https://frogcat.github.io/leaflet-tilelayer-colorpicker/">颜色拾取器</a>, <a href="https://frogcat.github.io/leaflet-tilelayer-colorpicker/mapbox-terrain-rgb.html">使用mapbox 地形RGB数据的高程选择器</a>
 		</td><td>
 			<a href="https://github.com/frogcat">Yuzo Matsuzawa</a>
 		</td>
@@ -471,7 +471,7 @@ The following plugins change the way that tile or image layers are displayed in 
 		<td>
 			<a href="https://github.com/hnrchrdl/leaflet-tilelayer-colorizr">Leaflet.TileLayer.Colorizr</a>
 		</td><td>
-			A Leaflet TileLayer which can modify colors by RGBA code. Demos: coming soon.
+			可以通过RGBA代码修改颜色的Leaflet瓦片图层。在线演示：（作者说很快会有，等着吧）
 		</td><td>
 			<a href="https://github.com/hnrchrdl">Hinrich Riedel</a>
 		</td>
