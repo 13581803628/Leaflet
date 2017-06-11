@@ -1470,14 +1470,14 @@ body类: plugins-page
 
 ### 聚类/整合
 
-When you are displaying a lot of data, these plugins will make your map look cleaner.
+当你显示大量数据时，这些插件将使您的地图看起来更干净。
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件</th><th>描述</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/Leaflet/Leaflet.markercluster">Leaflet.markercluster</a>
 		</td><td>
-			Beautiful, sophisticated, high performance marker clustering solution with smooth animations and lots of great features. <em>Recommended!</em>
+			美丽，精致，高性能的标记聚类解决方案具有平滑的动画和许多伟大的功能。<em>强烈推荐！</em>
 		</td><td>
 			<a href="https://github.com/danzel">Dave Leaver</a>
 		</td>
@@ -1486,7 +1486,7 @@ When you are displaying a lot of data, these plugins will make your map look cle
 		<td>
 			<a href="https://github.com/MazeMap/Leaflet.LayerGroup.Collision">Leaflet.LayerGroup.Collision</a>
 		</td><td>
-			Provides collision detection for groups of markers. Unlike clustering, this takes into account the shape &amp; size of the markers.
+			为标记组提供碰撞检测。与聚类不同，它考虑了标记的形状和大小。
 		</td><td>
 			<a href="https://github.com/IvanSanchez">Iván Sánchez Ortega</a>,
 			<a href="https://github.com/MazeMap">MazeMap</a>
@@ -1496,7 +1496,7 @@ When you are displaying a lot of data, these plugins will make your map look cle
 		<td>
 			<a href="https://github.com/jawj/OverlappingMarkerSpiderfier-Leaflet">Overlapping Marker Spiderfier</a>
 		</td><td>
-			Deals with overlapping markers in a Google Earth-inspired way by gracefully springing them apart on click.
+			以Google地球启发的方式，优雅地将重叠标记分开点击。
 		</td><td>
 			<a href="http://mackerron.com">George MacKerron</a>
 		</td>
@@ -1505,7 +1505,7 @@ When you are displaying a lot of data, these plugins will make your map look cle
 		<td>
 			<a href="https://github.com/SINTEF-9012/PruneCluster">PruneCluster</a>
 		</td><td>
-			Fast and realtime marker clustering library.
+			快速、实时标记聚类库。
 		</td><td>
 			<a href="https://github.com/yellowiscool">Antoine Pultier</a>
 		</td>
@@ -1514,7 +1514,7 @@ When you are displaying a lot of data, these plugins will make your map look cle
 		<td>
 			<a href="https://github.com/oliverroick/Leaflet.Deflate">Leaflet.Deflate</a>
 		</td><td>
-			Deflates lines and polygons to a marker when their screen size becomes too small in lower zoom levels.
+			当屏幕尺寸在较低缩放级别变得太小时，将线条和多边形变换为标记。
 		</td><td>
 			<a href="https://github.com/oliverroick">Oliver Roick</a>
 		</td>
@@ -1523,7 +1523,7 @@ When you are displaying a lot of data, these plugins will make your map look cle
 		<td>
 			<a href="https://github.com/andy-kay/Leaflet.GridCluster">Leaflet.GridCluster</a>
 		</td><td>
-			Create grid-based clusters in realtime.
+			实时创建基于网格的聚类。
 		</td><td>
 			<a href="https://github.com/andy-kay">Andreas Kiefer</a>
 		</td>
@@ -1532,7 +1532,7 @@ When you are displaying a lot of data, these plugins will make your map look cle
 		<td>
 			<a href="https://github.com/spatialdev/q-cluster">q-cluster</a>
 		</td><td>
-			Quick point clustering library with D3 categorization.
+			使用D3分类的快速聚类库。
 		</td><td>
 			<a href="https://github.com/hallahan">Nicholas Hallahan</a>
 		</td>
@@ -1541,7 +1541,8 @@ When you are displaying a lot of data, these plugins will make your map look cle
 		<td>
 			<a href="https://github.com/Eclipse1979/leaflet-conditionalLayer">Leaflet.ConditionalLayer</a>
 		</td><td>
-			A FeatureGroup that does not show any more than a certain amount of markers visible in the viewport. (<a href="http://eclipse1979.github.io/Leaflet.ConditionalLayer/example/leaflet-conditionalLayer2.html">Demo</a>)
+			一个FeatureGroup，显示视口中可见的一定量的标记。<br>
+			<a href="http://eclipse1979.github.io/Leaflet.ConditionalLayer/example/leaflet-conditionalLayer2.html">在线演示</a>
 		</td><td>
 			<a href="https://github.com/Eclipse1979">EPP</a>
 		</td>
@@ -1550,7 +1551,8 @@ When you are displaying a lot of data, these plugins will make your map look cle
 		<td>
 			<a href="https://github.com/ghybs/Leaflet.FeatureGroup.SubGroup">Leaflet.FeatureGroup.SubGroup</a>
 		</td><td>
-			A simple plugin to create Feature Groups that add their child layers into a parent group. Typical usage is to switch them through L.Control.Layers to dynamically add/remove groups of markers from Leaflet.markercluster. <a href="http://ghybs.github.io/Leaflet.FeatureGroup.SubGroup/examples/subGroup-markercluster-controlLayers-realworld.388.html">Demo</a>.
+			一个简单的插件来创建将其子层添加到父组中的要素组。型的用法是通过L.Control.Layers将它们切换成动态地从Leaflet.markercluster添加/删除标记组。<br>
+			<a href="http://ghybs.github.io/Leaflet.FeatureGroup.SubGroup/examples/subGroup-markercluster-controlLayers-realworld.388.html">在线演示o</a>.
 		</td><td>
 			<a href="https://github.com/ghybs">ghybs</a>
 		</td>
