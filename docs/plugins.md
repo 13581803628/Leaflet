@@ -1368,7 +1368,7 @@ body类: plugins-page
 			<a href="https://gitlab.com/IvanSanchez/Leaflet.GLMarkers">Leaflet.GLMarkers</a>
 		</td><td>
 			使用自定义WebGL着色器显示数千个标记，可选择动画。<br>
-			<a href='http://https://ivansanchez.gitlab.io/Leaflet.GLMarkers/demo/repl.html'>在线演示</a>
+			<a href='https://ivansanchez.gitlab.io/Leaflet.GLMarkers/demo/repl.html'>在线演示</a>
 		</td><td>
 			<a href="https://gitlab.com/IvanSanchez">Iván Sánchez Ortega</a>
 		</td>
@@ -1379,14 +1379,15 @@ body类: plugins-page
 
 ### 叠加层动画
 
-These plugins animate markers or some geometries. See also [geometries with time or elevation](#geometryinteraction-time).
+这些插件给标记或一些几何添加动画。也可参见 [具有时间或高程的几何形状](#时间和海拔).
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件</th><th>描述</th><th>维护者</th></tr>
 	<tr>
 		<td>
-			<a href="https://github.com/openplans/Leaflet.AnimatedMarker">Leaflet.AnimatedMarker</a>
+			<a href="https://github.com/openplans/Leaflet.AnimatedMarker">Leaflet.AnimatedMarker</a><br>
+			<a href="http://openplans.github.io/Leaflet.AnimatedMarker/">在线演示</a>
 		</td><td>
-			Animate a marker along a polyline.
+			沿折线的标志动画。
 		</td><td>
 			<a href="https://github.com/atogle">Aaron Ogle</a>
 		</td>
@@ -1395,16 +1396,18 @@ These plugins animate markers or some geometries. See also [geometries with time
 		<td>
 			<a href="https://github.com/maximeh/leaflet.bouncemarker">Leaflet.BounceMarker</a>
 		</td><td>
-			Make a marker bounce when you add it to a map.
+			当你将标记添加到地图时，它会带有弹跳效果。
 		</td><td>
-			<a href="https://github.com/maximeh">Maxime Hadjinlian</a>
+			<a href="https://github.com/maximeh">Maxime Hadjinlian</a><br>
+			<a href="http://maximeh.github.io/leaflet.bouncemarker/">在线演示</a>
 		</td>
 	</tr>
 	<tr>
 		<td>
 			<a href="https://github.com/hosuaby/Leaflet.SmoothMarkerBouncing">Leaflet.SmoothMarkerBouncing</a>
 		</td><td>
-			Smooth animation of marker bouncing for Leaflet.
+			标签反弹的平滑动画。<br>
+			<a href="http://hosuaby.github.io/Leaflet.SmoothMarkerBouncing/">在线演示</a>
 		</td><td>
 			<a href="https://github.com/hosuaby">Alexei KLENIN</a>
 		</td>
@@ -1413,7 +1416,8 @@ These plugins animate markers or some geometries. See also [geometries with time
 		<td>
 			<a href="https://github.com/ewoken/Leaflet.MovingMarker">Leaflet.MovingMarker</a>
 		</td><td>
-			Allow to move markers along a polyline with custom durations.
+			允许沿着折线在自定义持续时间内移动标记。<br>
+			<a href="http://ewoken.github.io/Leaflet.MovingMarker/">在线演示</a>
 		</td><td>
 			<a href="https://github.com/ewoken">Ewoken</a>
 		</td>
@@ -1422,8 +1426,8 @@ These plugins animate markers or some geometries. See also [geometries with time
 		<td>
 			<a href="https://github.com/naturalatlas/leaflet-transitionedicon">Leaflet.TransitionedIcon</a>
 		</td><td>
-			Transition in/out markers with CSS3 transitions. It supports jitter
-			for staggering markers into view to prevent visual overload. See the <a href="http://naturalatlas.github.io/leaflet-transitionedicon/">demo</a>.
+			使用CSS3变换转换进/出标记。它支持将交错标记放入视图中的抖动，以防止视觉过载。 <br>
+			<a href="http://naturalatlas.github.io/leaflet-transitionedicon/">demo</a>.
 		</td><td>
 			<a href="https://github.com/brianreavis">Brian Reavis</a>
 		</td>
@@ -1432,7 +1436,8 @@ These plugins animate markers or some geometries. See also [geometries with time
 		<td>
 			<a href="https://github.com/IvanSanchez/Leaflet.Polyline.SnakeAnim">Leaflet.Polyline.SnakeAnim</a>
 		</td><td>
-			Animates (poly)lines into existence, as if they were being slowly drawn from start to end.
+			给存在的（多）线添加绘制动画，就好像它们从头到尾慢慢地被绘制。<br>
+			<a href="https://13581803628.github.io/Example/LeafletSnakeAnim/index.html">在线演示</a>
 		</td><td>
 			<a href="https://github.com/IvanSanchez">Iván Sánchez Ortega</a>,
 			<a href="https://github.com/MazeMap">MazeMap</a>
@@ -1442,8 +1447,8 @@ These plugins animate markers or some geometries. See also [geometries with time
 		<td>
 			<a href="https://github.com/rubenspgcavalcante/leaflet-ant-path">Leaflet.AntPath</a>
 		</td><td>
-			Leaflet.AntPath put a flux animation (like ants walking) into a Polyline.
-			(<a href='http://rubenspgcavalcante.github.io/leaflet-ant-path/'>demo</a>)
+			Leaflet.AntPath将通量动画（如蚂蚁行走）放入Polyline。<br>
+			<a href='http://rubenspgcavalcante.github.io/leaflet-ant-path/'>在线演示</a>
 		</td><td>
 			<a href="https://github.com/rubenspgcavalcante">Rubens Pinheiro</a>
 		</td>
@@ -1452,7 +1457,8 @@ These plugins animate markers or some geometries. See also [geometries with time
 		<td>
 			<a href="https://gitlab.com/IvanSanchez/Leaflet.Marker.SlideTo">Leaflet.Marker.SlideTo</a>
 		</td><td>
-			Smoothly move (slide) markers to a new location. (<a href='http://ivansanchez.gitlab.io/Leaflet.Marker.SlideTo/demo.html'>demo</a>)
+			平滑移动（滑动）标记到新的位置。<br>
+			<a href='http://ivansanchez.gitlab.io/Leaflet.Marker.SlideTo/demo.html'>在线演示</a>
 		</td><td>
 			<a href="https://gitlab.com/u/IvanSanchez">Iván Sánchez Ortega</a>,
 			<a href="https://github.com/MazeMap">MazeMap</a>
