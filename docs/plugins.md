@@ -1164,7 +1164,8 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/MAD-GooZe/Leaflet.Arc">Leaflet.Arc</a>
 		</td><td>
-			This plugin adds这个插件添加了 L.Polyline.Arc 功能，这是包装了function which wraps arc.js functionality for creation of Great Cirlce arcs.
+			This plugin adds这个插件添加了 L.Polyline.Arc 功能，这是封了 arc.js 功能来绘制大地线。
+			<br><a href="http://gusev.ga/Leaflet.Arc/">在线演示</a>
 		</td><td>
 			<a href="https://github.com/MAD-GooZe">Alexey Gusev</a>
 		</td>
@@ -1173,7 +1174,8 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/timwis/leaflet-choropleth">leaflet-choropleth</a>
 		</td><td>
-			Extends L.geoJson to add a choropleth visualization (color scale based on value). <a href="http://timwis.com/leaflet-choropleth/examples/basic">Demo</a>.
+			扩展 L.geoJson 增加一个等值线可视化（基于值得色标）。<br>
+			<a href="http://timwis.com/leaflet-choropleth/examples/basic">Demo</a>.
 		</td><td>
 			<a href="http://timwis.com">Tim Wisniewski</a>
 		</td>
@@ -1182,7 +1184,7 @@ body类: plugins-page
                 <td>
                         <a href="https://github.com/lethexa/leaflet-tracksymbol">leaflet-tracksymbol</a>
                 </td><td>
-                        This marker provides a tracksymbol with orientation, velocity-vector and configurable shape.
+                        该标记提供了具有方向，速度矢量和可配置形状的轨迹符号。
                 </td><td>
                         <a href="https://github.com/lethexa">Tim Leerhoff</a>
                 </td>
@@ -1191,7 +1193,7 @@ body类: plugins-page
                 <td>
                         <a href="https://github.com/PowerPan/leaflet-ais-tracksymbol">leaflet-ais-tracksymbol</a>
                 </td><td>
-                        AIS Extension for leaflet-tracksymbol It displays AIS Contacts on the Map.
+                        AIS 扩展 leaflet-tracksymbol插件，在地图上展示AIS联系。 
                 </td><td>
                         <a href="https://github.com/powerpan">Johannes Rudolph</a>
                 </td>
@@ -1200,8 +1202,8 @@ body类: plugins-page
                 <td>
                         <a href="https://github.com/PowerPan/leaflet-ais-tracksymbol-search">leaflet-ais-tracksymbol-search</a>
                 </td><td>
-                        Adds a Seach Box for your Leaflet Map and Your [leaflet-ais-trackymbol](https://github.com/PowerPan/leaflet-ais-tracksymbol)
-                </td><td>
+                       给你的Leaflet地图和leaflet-ais-trackymbol添加一个搜索边界。
+                </td><td>
                         <a href="https://github.com/powerpan">Johannes Rudolph</a>
                 </td>
         </tr>
@@ -1210,7 +1212,8 @@ body类: plugins-page
 			<a href="https://github.com/wwwouaiebe/leaflet.marker.pin">leaflet.marker.pin</a>
 		</td>
 		<td>
-			Pins are markers that can be added and edited on the map by the end user. <a href="http://wwwouaiebe.github.io/leaflet.marker.pin/">Demo</a>.
+			在地图上钉一些点，这些点终端用户可以在地图上编辑和添加。<br>
+			<a href="http://wwwouaiebe.github.io/leaflet.marker.pin/">在线演示</a>.
 		</td>
 		<td>
 			<a href="https://github.com/wwwouaiebe">Christian Guyette</a>
@@ -1221,7 +1224,8 @@ body类: plugins-page
 			<a href="https://github.com/IvanSanchez/Leaflet.Marker.Stack">Leaflet.Marker.Stack</a>
 		</td>
 		<td>
-			A pure Leaflet implementation of CartoDB's "<a href="http://blog.cartodb.com/stacking-chips-a-map-hack/">stacked chips</a>" symbolizer. <a href="http://ivansanchez.github.io/Leaflet.Marker.Stack/demos/color_ramps.html">Demo</a>.
+			一个纯净的Leaflet实现CartoDB的"<a href="http://blog.cartodb.com/stacking-chips-a-map-hack/">stacked chips</a>" 符号。 <br>
+			<a href="http://ivansanchez.github.io/Leaflet.Marker.Stack/demos/color_ramps.html">在线演示</a>.
 		</td>
 		<td>
 			<a href="https://github.com/IvanSanchez">Iván Sánchez</a>
@@ -1232,7 +1236,8 @@ body类: plugins-page
 			<a href="https://github.com/cloudybay/leaflet-polygon-fillPattern">leaflet-polygon.fillPattern</a>
 		</td>
 		<td>
-			Extend the Polygon Object to fill SVG Path element with an image pattern.<a href="http://lwsu.github.io/leaflet-polygon-fillPattern/example/">Demo</a>.
+			扩展 Polygon 对象以图像模式填充SVG路径元素。<br>
+			<a href="http://lwsu.github.io/leaflet-polygon-fillPattern/example/">Demo</a>.
 		</td>
 		<td>
 			<a href="https://github.com/cloudybay/">CloudyBay</a>
@@ -1243,7 +1248,8 @@ body类: plugins-page
 			<a href="https://github.com/bbecquet/Leaflet.PolylineOffset">Leaflet Polyline Offset</a>
 		</td>
 		<td>
-			Adds to <code>L.Polyline</code> the ability to be shifted with a relative pixel offset, without modifying its actual <code>LatLng</code>s. The offset value can be either negative or positive, for left- or right-side offset, and remains constant across zoom levels (<a href="http://bbecquet.github.io/Leaflet.PolylineOffset/examples/example.html">basic demo</a>).
+			给 <code>L.Polyline</code> 添加按像素偏移的功能，不修改其实际的<code>经纬度</code>。偏移量可以是正数或负数——用于左右偏移，并伴随缩放级别保持常量。<br>
+			<a href="http://bbecquet.github.io/Leaflet.PolylineOffset/examples/example.html">基本演示</a>
 		</td>
 		<td>
 			<a href="https://github.com/bbecquet">Benjamin Becquet</a>
@@ -1254,7 +1260,8 @@ body类: plugins-page
 			<a href="https://github.com/w8r/leaflet-labeled-circle">leaflet-labeled-circle</a>
 		</td>
 		<td>
-			Special type of SVG marker with a label inside and draggable around the anchor point (<a href="https://w8r.github.io/leaflet-labeled-circle/demo/">demo</a>).
+			Special 内部有标签的特殊类型SVG标记，它可以在锚点周围拖动。<br>
+			<a href="https://w8r.github.io/leaflet-labeled-circle/demo/">在线演示</a>
 		</td>
 		<td>
 			<a href="https://github.com/w8r/">Alexander Milevski</a>
@@ -1265,7 +1272,8 @@ body类: plugins-page
 			<a href="https://github.com/dagjomar/Leaflet.ParallaxMarker">Leaflet.ParallaxMarker</a>
 		</td>
 		<td>
-			Add markers that moves with a parallax-effect relative to the map when panning (<a href="https://dagjomar.github.io/Leaflet.ParallaxMarker/">demos / examples</a>).
+			在平移地图时添加标记的视差效果。<br>
+			<a href="https://dagjomar.github.io/Leaflet.ParallaxMarker/">示例演示</a>
 		</td>
 		<td>
 			<a href="https://github.com/dagjomar/">Dag Jomar Mersland</a>
@@ -1276,7 +1284,8 @@ body类: plugins-page
 			<a href="https://github.com/adoroszlai/leaflet-distance-markers">leaflet-distance-markers</a>
 		</td>
 		<td>
-			Allows displaying markers along a route (L.Polyline) at equivalent distances (eg. one per mile) (<a href="http://adoroszlai.github.io/leaflet-distance-markers/">demo</a>).
+			Allows允许沿线路 (L.Polyline) 等距离（例如每隔一米）显示标记。<br>
+			<a href="http://adoroszlai.github.io/leaflet-distance-markers/">在线示例</a>
 		</td>
 		<td>
 			<a href="https://github.com/adoroszlai">Doroszlai, Attila</a>
@@ -1287,7 +1296,8 @@ body类: plugins-page
 			<a href="https://github.com/mikhailshilkov/leaflet-corridor">leaflet-corridor</a>
 		</td>
 		<td>
-			Renders a polyline with width fixed in meters, not in pixels; adjusts width depending on zoom level (<a href="http://mikhail.io/demos/leaflet-corridor/">demo</a>).
+			Renders按照固定的地理宽度渲染一条线，而不是按照像素宽度。 根据缩放级别自动调整宽度。 <br>
+			<a href="https://13581803628.github.io/Example/LeafletCorridor/index.html">在线演示</a>
 		</td>
 		<td>
 			<a href="https://github.com/mikhailshilkov">Mikhail Shilkov</a>
@@ -1298,7 +1308,8 @@ body类: plugins-page
 			<a href="https://github.com/yakitoritabetai/Leaflet.LabelTextCollision">Leaflet.LabelTextCollision</a>
 		</td>
 		<td>
-			Displays labels on paths (polylines, polygons, circles) avoiding label collision. (<a href="https://yakitoritabetai.github.io/Leaflet.LabelTextCollision/">demo</a>).
+			Displays在路径（线路、多边形、圆）上展示标注文字，避免标注相互遮挡。<br>
+			<a href="https://yakitoritabetai.github.io/Leaflet.LabelTextCollision/">在线演示</a>
 		</td>
 		<td>
 			<a href="https://github.com/yakitoritabetai">Kenta Hakoishi</a>
@@ -1309,8 +1320,8 @@ body类: plugins-page
 			<a href="https://github.com/ggolikov/Leaflet.Viewpoint">Leaflet.Viewpoint</a>
 		</td>
 		<td>
-			Displays circleMarker with multiple directions.
-			Useful to show photos taken from one point. (<a href="https://ggolikov.github.io/Leaflet.Viewpoint/example/">demo</a>).
+			Displays展示一个有多个方向的圆形标记。在展示从一个点拍摄的照片时有用。<br> 
+			<a href="https://ggolikov.github.io/Leaflet.Viewpoint/example/">在线演示</a>
 		</td>
 		<td>
 			<a href="https://github.com/ggolikov">Grigory Golikov</a>
@@ -1321,7 +1332,8 @@ body类: plugins-page
 			<a href="https://github.com/react-map/leaflet.magicMarker">Leaflet.magicMarker</a>
 		</td>
 		<td>
-			Adding magical animation effect to a marker while loading.(<a href="https://react-map.github.io/leaflet.magicMarker/">Demo</a>).
+			加载时将魔法动画效果添加到标记。<br>
+			<a href="https://react-map.github.io/leaflet.magicMarker/">在线演示</a>
 		</td>
 		<td>
 			<a href="https://github.com/react-map">Sylvenas</a>
@@ -1332,7 +1344,8 @@ body类: plugins-page
 			<a href="https://github.com/brandonxiang/leaflet.marker.highlight">Leaflet.Marker.Highlight</a>
 		</td>
 		<td>
-			Adding highlight performance for L.marker.(<a href="https://brandonxiang.github.io/leaflet.marker.highlight/examples/">Demo</a>).
+			对Leaflet标记添加高亮样式。<br>
+			<a href="https://brandonxiang.github.io/leaflet.marker.highlight/examples/">在线演示</a>
 		</td>
 		<td>
 			<a href="https://github.com/brandonxiang">Brandon Xiang</a>
@@ -1343,7 +1356,8 @@ body类: plugins-page
 			<a href="https://github.com/nypl-spacetime/Leaflet.GeotagPhoto">Leaflet.GeotagPhoto</a>
 		</td>
 		<td>
-			Plugin for photo geotagging, with two modes: camera and crosshair (<a href="http://spacetime.nypl.org/Leaflet.GeotagPhoto/examples/camera.html">Demo</a>).
+			照片地理标记插件，有两种模式：相机模式和十字准线模式。<br>
+			<a href="http://spacetime.nypl.org/Leaflet.GeotagPhoto/examples/camera.html">在线演示</a>
 		</td>
 		<td>
 			<a href="https://github.com/bertspaan">Bert Spaan</a>
@@ -1353,7 +1367,8 @@ body类: plugins-page
 		<td>
 			<a href="https://gitlab.com/IvanSanchez/Leaflet.GLMarkers">Leaflet.GLMarkers</a>
 		</td><td>
-			Display thousands of markers with custom WebGL shaders, optionally animated. (<a href='http://https://ivansanchez.gitlab.io/Leaflet.GLMarkers/demo/repl.html'>demo</a>)
+			使用自定义WebGL着色器显示数千个标记，可选择动画。<br>
+			<a href='http://https://ivansanchez.gitlab.io/Leaflet.GLMarkers/demo/repl.html'>在线演示</a>
 		</td><td>
 			<a href="https://gitlab.com/IvanSanchez">Iván Sánchez Ortega</a>
 		</td>
