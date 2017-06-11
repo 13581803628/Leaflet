@@ -1552,7 +1552,7 @@ body类: plugins-page
 			<a href="https://github.com/ghybs/Leaflet.FeatureGroup.SubGroup">Leaflet.FeatureGroup.SubGroup</a>
 		</td><td>
 			一个简单的插件来创建将其子层添加到父组中的要素组。型的用法是通过L.Control.Layers将它们切换成动态地从Leaflet.markercluster添加/删除标记组。<br>
-			<a href="http://ghybs.github.io/Leaflet.FeatureGroup.SubGroup/examples/subGroup-markercluster-controlLayers-realworld.388.html">在线演示o</a>.
+			<a href="http://ghybs.github.io/Leaflet.FeatureGroup.SubGroup/examples/subGroup-markercluster-controlLayers-realworld.388.html">在线演示</a>.
 		</td><td>
 			<a href="https://github.com/ghybs">ghybs</a>
 		</td>
@@ -1561,14 +1561,14 @@ body类: plugins-page
 
 ### 热力图
 
-These plugins create heatmaps and heatmap-like visualizations from vector data.
+这些插件从矢量数据创建热图和类似热图的可视化图层。
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件</th><th>描述</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/domoritz/leaflet-maskcanvas">MaskCanvas</a>
 		</td><td>
-			Canvas layer that can be used to visualize coverage.
+			可用于可视化覆盖的Canvas层。
 		</td><td>
 			<a href="https://github.com/domoritz">Dominik Moritz</a>
 		</td>
@@ -1578,7 +1578,7 @@ These plugins create heatmaps and heatmap-like visualizations from vector data.
 			<a href="https://github.com/sunng87/heatcanvas">HeatCanvas</a>
 		</td>
 		<td>
-			Simple heatmap api based on HTML5 canvas.
+			基于HTML5 canvas的简单heatmap API。
 		</td>
 		<td>
 			<a href="https://github.com/sunng87">Sun Ning</a>
@@ -1589,9 +1589,8 @@ These plugins create heatmaps and heatmap-like visualizations from vector data.
 			<a href="http://www.patrick-wied.at/static/heatmapjs/example-heatmap-leaflet.html">heatmap.js</a>
 		</td>
 		<td>
-			JavaScript Library for HTML5 canvas based heatmaps.<br>
-			Its Leaflet layer implementation supports large datasets 
-			because it is tile based and uses a quadtree index to store the data.
+			适用于HTML5 canvas的基于heatmap的JavaScript库。<br>
+			其Leaflet层实现支持大型数据集，因为它是基于tile的，并使用四叉树索引来存储数据。
 		</td>
 		<td>
 			<a href="https://github.com/pa7">Patrick Wied</a>
@@ -1602,7 +1601,7 @@ These plugins create heatmaps and heatmap-like visualizations from vector data.
 			<a href="https://github.com/dpiccone/leaflet-div-heatmap">Leaflet divHeatmap</a>
 		</td>
 		<td>
-			Lightweight and versatile heatmap layer based on CSS3 and divIcons
+			基于CSS3和divIcons的轻量级和多功能热力图层
 		</td>
 		<td>
 			<a href="https://github.com/dpiccone">Daniele Piccone</a>
@@ -1613,7 +1612,7 @@ These plugins create heatmaps and heatmap-like visualizations from vector data.
 			<a href="http://ursudio.com/webgl-heatmap-leaflet/">WebGL Heatmap</a>
 		</td>
 		<td>
-			High performance Javascript heatmap plugin using WebGL.
+			使用WebGL的高性能的Javascript插件热图。
 		</td>
 		<td>
 			<a href="https://twitter.com/bozdoz">Benjamin J DeLong</a>
@@ -1624,7 +1623,8 @@ These plugins create heatmaps and heatmap-like visualizations from vector data.
 			<a href="https://github.com/Leaflet/Leaflet.heat">Leaflet.heat</a>
 		</td>
 		<td>
-			A tiny, simple and fast Leaflet heatmap plugin. Uses <a href='https://github.com/mourner/simpleheat'>simpleheat</a> under the hood, additionally clustering points into a grid for performance. (<a href='http://leaflet.github.io/Leaflet.heat/demo'>Demo</a>)
+			一个小而简单快速的Leaflet热图插件。在引擎下使用 <a href='https://github.com/mourner/simpleheat'>simpleheat</a> ，另外将聚类点集合到网格中以实现性能。 
+			<a href='http://leaflet.github.io/Leaflet.heat/demo'>在线演示</a>
 		</td>
 		<td>
 			<a href="https://github.com/mourner">Vladimir Agafonkin</a>
@@ -1635,14 +1635,14 @@ These plugins create heatmaps and heatmap-like visualizations from vector data.
 
 ### 数据可视化
 
-Powerful multi-purpose libraries for data visualization.
+强大的数据可视化多用途库。
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件</th><th>描述</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="http://dynmeth.github.com/RaphaelLayer/">RaphaelLayer</a>
 		</td><td>
-			Allows you to use <a href="http://raphaeljs.com/">Raphael</a> as a layer on a Leaflet map for advanced animations and visualizations.
+			允许你使用 <a href="http://raphaeljs.com/">Raphael</a> 作为Leaflet地图的一个图层，来加载高级动画和可视化效果。
 		</td><td>
 			<a href="https://github.com/dynmeth">Dynamic Methods</a>
 		</td>
@@ -1651,7 +1651,7 @@ Powerful multi-purpose libraries for data visualization.
 		<td>
 			<a href="http://humangeo.github.com/leaflet-dvf/">Leaflet Data Visualization Framework</a>
 		</td><td>
-			New markers, layers, and utility classes for easy thematic mapping and data visualization.
+			新的标记，图层和实用工具类，便于主题地图制作和数据可视化。
 		</td><td>
 			<a href="https://github.com/sfairgrieve">Scott Fairgrieve</a>
 		</td>
@@ -1660,7 +1660,7 @@ Powerful multi-purpose libraries for data visualization.
 		<td>
 			<a href="https://github.com/teralytics/Leaflet.D3SvgOverlay">Leaflet.D3SvgOverlay</a>
 		</td><td>
-			SVG overlay class for using with <a href="http://d3js.org">D3</a> library. Supports zoom animation and scaling without need to redraw the layer.
+			使用<a href="http://d3js.org">D3</a>库的SVG覆盖类。支持缩放动画和地图缩放，无需重绘图层。 
 		</td><td>
 			<a href="https://github.com/xEviL">Kirill Zhuravlev</a>
 		</td>
@@ -1669,7 +1669,7 @@ Powerful multi-purpose libraries for data visualization.
 		<td>
 			<a href="https://github.com/mapbox/mapbox-gl-leaflet">mapbox-gl-leaflet</a>
 		</td><td>
-			Binding from Mapbox GL JS to the Leaflet API
+			从Mapbox GL JS 绑定到 Leaflet API
 		</td><td>
 			<a href="https://github.com/tmcw">Tom MacWright</a>
 		</td>
@@ -1678,7 +1678,7 @@ Powerful multi-purpose libraries for data visualization.
 		<td>
 			<a href="https://github.com/wandergis/leaflet-echarts">leaflet-echarts</a>
 		</td><td>
-			A plugin for Leaflet to load <a href="https://github.com/ecomfe/echarts">echarts</a> map and make big data visualization easier.
+			用于载入<a href="https://github.com/ecomfe/echarts">echarts</a>地图的Leaflet的插件，可以更容易地映射和大数据可视化。
 		</td><td>
 			<a href="https://github.com/wandergis">wandergis</a>
 		</td>
@@ -1687,7 +1687,7 @@ Powerful multi-purpose libraries for data visualization.
 		<td>
 			<a href="https://github.com/atlefren/storymap">jquery-storymap</a>
 		</td><td>
-			A jQuery plugin to display several map locations as the user scrolls through paragraphs.
+			一个jQuery插件，用于在用户滚动段落时显示几个地图位置。
 		</td><td>
 			<a href="https://github.com/atlefren">Atle Frenvik Sveen</a>
 		</td>
@@ -1696,7 +1696,7 @@ Powerful multi-purpose libraries for data visualization.
 		<td>
 			<a href="https://github.com/rstudio/leaflet">Leaflet for R</a>
 		</td><td>
-			Allows using Leaflet from within <a href="https://en.wikipedia.org/wiki/R_%28programming_language%29">R</a> programs, a programming language popular for statistical analysis and data mining.
+			允许在<a href="https://en.wikipedia.org/wiki/R_%28programming_language%29">R</a>程序中使用传单，这是一种流行用于统计分析和数据挖掘的编程语言。
 		</td><td>
 			<a href="https://github.com/rstudio/">RStudio team</a>
 		</td>
@@ -1705,7 +1705,8 @@ Powerful multi-purpose libraries for data visualization.
 		<td>
 			<a href="https://github.com/react-map/leaflet.migrationLayer">leaflet.migrationLayer</a>
 		</td><td>
-			leafet.migrationLayer is used to show migration data such as population,flight,vehicle,traffic and so on.Data visualization on map.<a href="https://react-map.github.io/leaflet.migrationLayer">demo</a>
+			leafet.migrationLayer用于显示迁移数据，如人口，飞行，车辆，流量等。在地图上数据可视化。<br>
+			<a href="https://react-map.github.io/leaflet.migrationLayer">在线演示</a>
 		</td><td>
 			<a href="https://github.com/react-map">Sylvenas</a>
 		</td>
@@ -1714,7 +1715,7 @@ Powerful multi-purpose libraries for data visualization.
 		<td>
 			<a href="https://ibesora.github.io/Leaflet.Quadtree/">Leaflet.Quadtree</a>
 		</td><td>
-			Leaflet.Quadtree is used to retrieve visible data inside given bounds
+			Leaflet.Quadtree用于检索给定范围内的可见数据
 		</td><td>
 			<a href="https://github.com/ibesora">ibesora</a>
 		</td>
