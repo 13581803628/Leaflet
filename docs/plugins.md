@@ -1568,7 +1568,9 @@ body类: plugins-page
 		<td>
 			<a href="https://github.com/domoritz/leaflet-maskcanvas">MaskCanvas</a>
 		</td><td>
-			可用于可视化覆盖的Canvas层。
+			可用于可视化覆盖的Canvas层。<br>
+			<a href="https://13581803628.github.io/Example/LeafletMaskcanvas/index.html">在线演示1</a>
+			<a href="https://13581803628.github.io/Example/LeafletMaskcanvas/index-1.0-dev.html">在线演示2</a>
 		</td><td>
 			<a href="https://github.com/domoritz">Dominik Moritz</a>
 		</td>
