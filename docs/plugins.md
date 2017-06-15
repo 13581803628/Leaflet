@@ -1609,10 +1609,11 @@ body类: plugins-page
 	</tr>
 	<tr>
 		<td>
-			<a href="http://ursudio.com/webgl-heatmap-leaflet/">WebGL Heatmap</a>
+			<a href="https://github.com/ursudio/leaflet-webgl-heatmap">WebGL Heatmap</a>
 		</td>
 		<td>
-			使用WebGL的高性能的Javascript插件热图。
+			使用WebGL的高性能的Javascript插件热图。<br>
+			<a href="https://ursudio.github.io/leaflet-webgl-heatmap/">在线演示</a>
 		</td>
 		<td>
 			<a href="https://twitter.com/bozdoz">Benjamin J DeLong</a>
