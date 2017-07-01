@@ -1729,7 +1729,7 @@ body类: plugins-page
 
 ## 叠加层交互
 
-The following plugins enable users to interact with overlay data: edit geometries, select areas or features, interact with the time dimension, search features and display information about them.
+以下插件使用户可以和覆盖层数据交互：编辑几何、选择区域或特征、在时间维度交互、搜索特征并展示这些信息。
 
 * [编辑几何](#编辑几何)
 * [时间和海拔](#时间和海拔)
@@ -1919,15 +1919,21 @@ Allows users to create, draw, edit and/or delete points, lines and polygons.
 
 ### 时间和海拔
 
-Most data is two-dimensional (latitude and longitude), but some data has more dimensions (altitude and/or time). The following plugins help users navigate these extra dimensions.
+很多数据都是二维的（经度、纬度），但是有些数据具有更高的维数（高度或时间）。以下插件帮助用户浏览更多的维数。
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins">
+	<tr>
+		<th>插件</th>
+		<th>描述</th>
+		<th>维护者</th>
+	</tr>
 	<tr>
 		<td>
 			<a href="https://github.com/socib/Leaflet.TimeDimension">Leaflet.TimeDimension</a>
 		</td>
 		<td>
-			Add time dimension capabilities on a Leaflet map. <a href="http://apps.socib.es/Leaflet.TimeDimension/examples/index.html">Demos</a>
+			在leaflet地图上添加时间进度条功能。<br>
+			<a href="http://apps.socib.es/Leaflet.TimeDimension/examples/index.html">在线演示</a>
 		</td>
 		<td>
 			<a href="http://www.socib.eu">ICTS SOCIB</a>
@@ -1937,7 +1943,8 @@ Most data is two-dimensional (latitude and longitude), but some data has more di
 		<td>
 			<a href="https://github.com/dwilhelm89/LeafletSlider">Leaflet Time-Slider</a>
 		</td><td>
-			The Leaflet Time-Slider enables you to dynamically add and remove Markers on a map by using a JQuery UI slider
+			时间滑块可以让你使用JQuery UI 滑块在leaflet地图上动态添加和移除标记。<br>
+			<a href="http://dwilhelm89.github.io/LeafletSlider/">在线演示</a>
 		</td><td>
 			<a href="https://github.com/dwilhelm89">Dennis Wilhelm</a>
 		</td>
@@ -1946,7 +1953,7 @@ Most data is two-dimensional (latitude and longitude), but some data has more di
 		<td>
 			<a href="https://github.com/hallahan/LeafletPlayback">LeafletPlayback</a>
 		</td><td>
-			Play back time-stamped GPS Tracks synchronized to a clock.
+			播放与时钟同步的时间戳GPS轨迹。
 		</td><td>
 			<a href="http://theoutpost.io">Nicholas Hallahan</a>
 		</td>
@@ -1955,7 +1962,7 @@ Most data is two-dimensional (latitude and longitude), but some data has more di
 		<td>
 			<a href="https://github.com/skeate/Leaflet.timeline">Leaflet.timeline</a>
 		</td><td>
-			Display arbitrary GeoJSON on a map with a timeline slider and play button.
+			使用时间线滑块和播放按钮在地图上展示任意 GeoJSON 数据。
 		</td><td>
 			<a href="https://github.com/skeate">Jonathan Skeate</a>
 		</td>
